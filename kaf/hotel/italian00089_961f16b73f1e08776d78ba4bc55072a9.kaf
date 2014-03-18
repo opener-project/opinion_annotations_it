@@ -1,0 +1,1014 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="2.0" xml:lang="it">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-14T16:22:42Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-14T16:22:42Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-01-14-T04:22:43Z" version="1.0"/>
+      <lp timestamp="2014-02-24T13:27:41CET" version="1.0" name="Basic_polarity_tagger_with_pos"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-it" timestamp="2014-01-14 17:22:43" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-it" timestamp="2014-01-14 17:22:43" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-it" timestamp="2014-01-14T17:22:43" version="0.8"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:14CET"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">Ottimo</wf>
+    <wf length="6" offset="7" para="1" sent="1" wid="w2">Family</wf>
+    <wf length="5" offset="14" para="1" sent="1" wid="w3">Hotel</wf>
+    <wf length="5" offset="20" para="2" sent="2" wid="w4">Hotel</wf>
+    <wf length="11" offset="26" para="2" sent="2" wid="w5">consigliato</wf>
+    <wf length="3" offset="38" para="2" sent="2" wid="w6">per</wf>
+    <wf length="2" offset="42" para="2" sent="2" wid="w7">il</wf>
+    <wf length="8" offset="45" para="2" sent="2" wid="w8">rapporto</wf>
+    <wf length="7" offset="54" para="2" sent="2" wid="w9">qualità</wf>
+    <wf length="1" offset="62" para="2" sent="2" wid="w10">e</wf>
+    <wf length="6" offset="64" para="2" sent="2" wid="w11">prezzo</wf>
+    <wf length="1" offset="71" para="2" sent="2" wid="w12">e</wf>
+    <wf length="3" offset="73" para="2" sent="2" wid="w13">per</wf>
+    <wf length="2" offset="77" para="2" sent="2" wid="w14">la</wf>
+    <wf length="4" offset="80" para="2" sent="2" wid="w15">zona</wf>
+    <wf length="7" offset="85" para="2" sent="2" wid="w16">davvero</wf>
+    <wf length="5" offset="93" para="2" sent="2" wid="w17">bella</wf>
+    <wf length="1" offset="98" para="2" sent="2" wid="w18">.</wf>
+    <wf length="2" offset="100" para="2" sent="3" wid="w19">La</wf>
+    <wf length="6" offset="103" para="2" sent="3" wid="w20">pineta</wf>
+    <wf length="1" offset="110" para="2" sent="3" wid="w21">è</wf>
+    <wf length="9" offset="112" para="2" sent="3" wid="w22">veramente</wf>
+    <wf length="6" offset="122" para="2" sent="3" wid="w23">grande</wf>
+    <wf length="1" offset="129" para="2" sent="3" wid="w24">e</wf>
+    <wf length="2" offset="131" para="2" sent="3" wid="w25">c'</wf>
+    <wf length="1" offset="133" para="2" sent="3" wid="w26">è</wf>
+    <wf length="6" offset="135" para="2" sent="3" wid="w27">sempre</wf>
+    <wf length="2" offset="142" para="2" sent="3" wid="w28">un</wf>
+    <wf length="6" offset="145" para="2" sent="3" wid="w29">angolo</wf>
+    <wf length="4" offset="152" para="2" sent="3" wid="w30">all'</wf>
+    <wf length="5" offset="156" para="2" sent="3" wid="w31">ombra</wf>
+    <wf length="1" offset="161" para="2" sent="3" wid="w32">.</wf>
+    <wf length="6" offset="163" para="2" sent="4" wid="w33">Ideale</wf>
+    <wf length="3" offset="170" para="2" sent="4" wid="w34">per</wf>
+    <wf length="3" offset="174" para="2" sent="4" wid="w35">una</wf>
+    <wf length="7" offset="178" para="2" sent="4" wid="w36">vacanza</wf>
+    <wf length="10" offset="186" para="2" sent="4" wid="w37">rilassante</wf>
+    <wf length="2" offset="197" para="2" sent="4" wid="w38">in</wf>
+    <wf length="7" offset="200" para="2" sent="4" wid="w39">romagna</wf>
+    <wf length="1" offset="207" para="2" sent="4" wid="w40">.</wf>
+    <wf length="5" offset="209" para="2" sent="5" wid="w41">Buona</wf>
+    <wf length="2" offset="215" para="2" sent="5" wid="w42">l'</wf>
+    <wf length="11" offset="217" para="2" sent="5" wid="w43">accoglienza</wf>
+    <wf length="1" offset="229" para="2" sent="5" wid="w44">e</wf>
+    <wf length="2" offset="231" para="2" sent="5" wid="w45">le</wf>
+    <wf length="7" offset="234" para="2" sent="5" wid="w46">pulizie</wf>
+    <wf length="1" offset="241" para="2" sent="5" wid="w47">.</wf>
+  </text>
+  <terms>
+    <term lemma="ottimo" morphofeat="NOU~CSMS" pos="N" tid="t1" type="">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="family" morphofeat="ADJ~NI" pos="G" tid="t2" type="">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="hotel" morphofeat="NOU~CAMI" pos="N" tid="t3" type="">
+      <span>
+        <target id="w3"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="hotel" morphofeat="NOU~CAMI" pos="N" tid="t4" type="">
+      <span>
+        <target id="w4"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="consigliare" morphofeat="VMA~PAMS" pos="V" tid="t5" type="">
+      <span>
+        <target id="w5"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="per" morphofeat="PREP" pos="P" tid="t6" type="">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="lo" morphofeat="ART~DMS" pos="D" tid="t7" type="">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="rapporto" morphofeat="NOU~CSMS" pos="N" tid="t8" type="">
+      <span>
+        <target id="w8"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="qualita'" morphofeat="NOU~PNI" pos="R" tid="t9" type="">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="e" morphofeat="CONJ" pos="Q" tid="t10" type="">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="prezzo" morphofeat="NOU~CSMS" pos="N" tid="t11" type="">
+      <span>
+        <target id="w11"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="e" morphofeat="CONJ" pos="Q" tid="t12" type="">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="per" morphofeat="PREP" pos="P" tid="t13" type="">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="lo" morphofeat="ART~DFS" pos="D" tid="t14" type="">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="zona" morphofeat="NOU~CSFS" pos="N" tid="t15" type="">
+      <span>
+        <target id="w15"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="davvero" morphofeat="ADVB" pos="A" tid="t16" type="">
+      <span>
+        <target id="w16"/>
+      </span>
+      <sentiment resource="CRN_general_lexicon_italian" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="bello" morphofeat="ADJ~QUFS" pos="G" tid="t17" type="">
+      <span>
+        <target id="w17"/>
+      </span>
+      <sentiment polarity="positive" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t18" type="">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="lo" morphofeat="ART~DFS" pos="D" tid="t19" type="">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="pineta" morphofeat="NOU~CSFS" pos="N" tid="t20" type="">
+      <span>
+        <target id="w20"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="è" morphofeat="ADJ~QUFS" pos="G" tid="t21" type="">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="veramente" morphofeat="ADVB" pos="A" tid="t22" type="">
+      <span>
+        <target id="w22"/>
+      </span>
+      <sentiment resource="CRN_general_lexicon_italian" sentiment_modifier="intensifier"/>
+    </term>
+    <term lemma="grande" morphofeat="ADJ~QUNS" pos="G" tid="t23" type="">
+      <span>
+        <target id="w23"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="e" morphofeat="CONJ" pos="Q" tid="t24" type="">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="PRON~PEN4" pos="Q" tid="t25" type="">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="essere" morphofeat="VAU~REN1" pos="V" tid="t26" type="">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="sempre" morphofeat="ADVB" pos="A" tid="t27" type="">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="uno" morphofeat="ART~IMS" pos="D" tid="t28" type="">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="angolo" morphofeat="NOU~CSMS" pos="N" tid="t29" type="">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="all'" morphofeat="PREPNS" pos="P" tid="t30" type="">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="ombra" morphofeat="NOU~CSFS" pos="N" tid="t31" type="">
+      <span>
+        <target id="w31"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t32" type="">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="ideale" morphofeat="NOU~PNS" pos="R" tid="t33" type="">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="per" morphofeat="PREP" pos="P" tid="t34" type="">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="uno" morphofeat="ART~IFS" pos="D" tid="t35" type="">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="vacanza" morphofeat="NOU~CSFS" pos="N" tid="t36" type="">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="rilassare" morphofeat="VMA~PPNS" pos="V" tid="t37" type="">
+      <span>
+        <target id="w37"/>
+      </span>
+      <sentiment polarity="neutral" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="in" morphofeat="PREP" pos="P" tid="t38" type="">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="romagna" morphofeat="ADJ~QUFS" pos="G" tid="t39" type="">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t40" type="">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="buono" morphofeat="ADJ~QUFS" pos="G" tid="t41" type="">
+      <span>
+        <target id="w41"/>
+      </span>
+      <sentiment polarity="positive" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="lo" morphofeat="ART~DNS" pos="D" tid="t42" type="">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="accoglienza" morphofeat="NOU~CSFS" pos="N" tid="t43" type="">
+      <span>
+        <target id="w43"/>
+      </span>
+      <sentiment polarity="positive" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="e" morphofeat="CONJ" pos="Q" tid="t44" type="">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="lo" morphofeat="ART~DFP" pos="D" tid="t45" type="">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="pulizia" morphofeat="NOU~CPFP" pos="N" tid="t46" type="">
+      <span>
+        <target id="w46"/>
+      </span>
+      <sentiment polarity="positive" resource="CRN_general_lexicon_italian"/>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t47" type="">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="person">
+      <references>
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <constituency>
+    <tree>
+      <nt id="nter1" label="TOP"/>
+      <nt id="nter2" label="NP"/>
+      <nt id="nter3" label="NOU~PR"/>
+      <nt id="nter4" label="NOU~PR"/>
+      <nt id="nter5" label="NOU~PR"/>
+      <t id="ter1">
+        <span>
+          <target id="t1"/>
+        </span>
+      </t>
+      <t id="ter2">
+        <span>
+          <target id="t2"/>
+        </span>
+      </t>
+      <t id="ter3">
+        <span>
+          <target id="t3"/>
+        </span>
+      </t>
+      <edge from="nter2" id="tre2" to="nter1"/>
+      <edge from="nter3" id="tre3" to="nter2"/>
+      <edge from="ter1" id="tre4" to="nter3"/>
+      <edge from="nter4" id="tre5" to="nter2"/>
+      <edge from="ter2" id="tre6" to="nter4"/>
+      <edge from="nter5" head="yes" id="tre7" to="nter2"/>
+      <edge from="ter3" id="tre8" to="nter5"/>
+    </tree>
+    <tree>
+      <nt id="nter6" label="TOP"/>
+      <nt id="nter7" label="PP"/>
+      <nt id="nter8" label="PREP"/>
+      <nt id="nter9" label="NP"/>
+      <nt id="nter10" label="NP"/>
+      <nt id="nter11" label="NOU~CS"/>
+      <nt id="nter12" label="PP"/>
+      <nt id="nter13" label="PP"/>
+      <nt id="nter14" label="PREP"/>
+      <nt id="nter15" label="NP"/>
+      <nt id="nter16" label="NP"/>
+      <nt id="nter17" label="ART~DE"/>
+      <nt id="nter18" label="NOU~CS"/>
+      <nt id="nter19" label="NP"/>
+      <nt id="nter20" label="NOU~CA"/>
+      <nt id="nter21" label="CONJ"/>
+      <nt id="nter22" label="NP"/>
+      <nt id="nter23" label="NOU~CS"/>
+      <nt id="nter24" label="CONJ"/>
+      <nt id="nter25" label="PP"/>
+      <nt id="nter26" label="PREP"/>
+      <nt id="nter27" label="NP"/>
+      <nt id="nter28" label="ART~DE"/>
+      <nt id="nter29" label="NOU~CS"/>
+      <nt id="nter30" label="ADJ~QU"/>
+      <nt id="nter31" label="ADJ~QU"/>
+      <nt id="nter32" label="."/>
+      <t id="ter4">
+        <span>
+          <target id="t4"/>
+        </span>
+      </t>
+      <t id="ter5">
+        <span>
+          <target id="t5"/>
+        </span>
+      </t>
+      <t id="ter6">
+        <span>
+          <target id="t6"/>
+        </span>
+      </t>
+      <t id="ter7">
+        <span>
+          <target id="t7"/>
+        </span>
+      </t>
+      <t id="ter8">
+        <span>
+          <target id="t8"/>
+        </span>
+      </t>
+      <t id="ter9">
+        <span>
+          <target id="t9"/>
+        </span>
+      </t>
+      <t id="ter10">
+        <span>
+          <target id="t10"/>
+        </span>
+      </t>
+      <t id="ter11">
+        <span>
+          <target id="t11"/>
+        </span>
+      </t>
+      <t id="ter12">
+        <span>
+          <target id="t12"/>
+        </span>
+      </t>
+      <t id="ter13">
+        <span>
+          <target id="t13"/>
+        </span>
+      </t>
+      <t id="ter14">
+        <span>
+          <target id="t14"/>
+        </span>
+      </t>
+      <t id="ter15">
+        <span>
+          <target id="t15"/>
+        </span>
+      </t>
+      <t id="ter16">
+        <span>
+          <target id="t16"/>
+        </span>
+      </t>
+      <t id="ter17">
+        <span>
+          <target id="t17"/>
+        </span>
+      </t>
+      <t id="ter18">
+        <span>
+          <target id="t18"/>
+        </span>
+      </t>
+      <edge from="nter7" id="tre10" to="nter6"/>
+      <edge from="nter8" id="tre11" to="nter7"/>
+      <edge from="ter4" id="tre12" to="nter8"/>
+      <edge from="nter9" id="tre13" to="nter7"/>
+      <edge from="nter10" id="tre14" to="nter9"/>
+      <edge from="nter11" head="yes" id="tre15" to="nter10"/>
+      <edge from="ter5" id="tre16" to="nter11"/>
+      <edge from="nter12" id="tre17" to="nter9"/>
+      <edge from="nter13" id="tre18" to="nter12"/>
+      <edge from="nter14" id="tre19" to="nter13"/>
+      <edge from="ter6" id="tre20" to="nter14"/>
+      <edge from="nter15" id="tre21" to="nter13"/>
+      <edge from="nter16" id="tre22" to="nter15"/>
+      <edge from="nter17" id="tre23" to="nter16"/>
+      <edge from="ter7" id="tre24" to="nter17"/>
+      <edge from="nter18" id="tre25" to="nter16"/>
+      <edge from="ter8" id="tre26" to="nter18"/>
+      <edge from="nter19" id="tre27" to="nter16"/>
+      <edge from="nter20" head="yes" id="tre28" to="nter19"/>
+      <edge from="ter9" id="tre29" to="nter20"/>
+      <edge from="nter21" id="tre30" to="nter15"/>
+      <edge from="ter10" id="tre31" to="nter21"/>
+      <edge from="nter22" id="tre32" to="nter15"/>
+      <edge from="nter23" head="yes" id="tre33" to="nter22"/>
+      <edge from="ter11" id="tre34" to="nter23"/>
+      <edge from="nter24" id="tre35" to="nter12"/>
+      <edge from="ter12" id="tre36" to="nter24"/>
+      <edge from="nter25" id="tre37" to="nter12"/>
+      <edge from="nter26" id="tre38" to="nter25"/>
+      <edge from="ter13" id="tre39" to="nter26"/>
+      <edge from="nter27" id="tre40" to="nter25"/>
+      <edge from="nter28" id="tre41" to="nter27"/>
+      <edge from="ter14" id="tre42" to="nter28"/>
+      <edge from="nter29" id="tre43" to="nter27"/>
+      <edge from="ter15" id="tre44" to="nter29"/>
+      <edge from="nter30" id="tre45" to="nter27"/>
+      <edge from="ter16" id="tre46" to="nter30"/>
+      <edge from="nter31" head="yes" id="tre47" to="nter27"/>
+      <edge from="ter17" id="tre48" to="nter31"/>
+      <edge from="nter32" head="yes" id="tre49" to="nter7"/>
+      <edge from="ter18" id="tre50" to="nter32"/>
+    </tree>
+    <tree>
+      <nt id="nter33" label="TOP"/>
+      <nt id="nter34" label="S"/>
+      <nt id="nter35" label="S"/>
+      <nt id="nter36" label="NP"/>
+      <nt id="nter37" label="ART~DE"/>
+      <nt id="nter38" label="NOU~CS"/>
+      <nt id="nter39" label="VP"/>
+      <nt id="nter40" label="VMA~RE"/>
+      <nt id="nter41" label="ADJP"/>
+      <nt id="nter42" label="ADVB"/>
+      <nt id="nter43" label="ADJ~QU"/>
+      <nt id="nter44" label="CONJ"/>
+      <nt id="nter45" label="S"/>
+      <nt id="nter46" label="NP"/>
+      <nt id="nter47" label="PRO~LO"/>
+      <nt id="nter48" label="VP"/>
+      <nt id="nter49" label="VMA~RE"/>
+      <nt id="nter50" label="ADVP"/>
+      <nt id="nter51" label="ADVB"/>
+      <nt id="nter52" label="NP"/>
+      <nt id="nter53" label="NP"/>
+      <nt id="nter54" label="ART~IN"/>
+      <nt id="nter55" label="NOU~CS"/>
+      <nt id="nter56" label="PP"/>
+      <nt id="nter57" label="PREP"/>
+      <nt id="nter58" label="NP"/>
+      <nt id="nter59" label="NOU~CS"/>
+      <nt id="nter60" label="."/>
+      <t id="ter19">
+        <span>
+          <target id="t19"/>
+        </span>
+      </t>
+      <t id="ter20">
+        <span>
+          <target id="t20"/>
+        </span>
+      </t>
+      <t id="ter21">
+        <span>
+          <target id="t21"/>
+        </span>
+      </t>
+      <t id="ter22">
+        <span>
+          <target id="t22"/>
+        </span>
+      </t>
+      <t id="ter23">
+        <span>
+          <target id="t23"/>
+        </span>
+      </t>
+      <t id="ter24">
+        <span>
+          <target id="t24"/>
+        </span>
+      </t>
+      <t id="ter25">
+        <span>
+          <target id="t25"/>
+        </span>
+      </t>
+      <t id="ter26">
+        <span>
+          <target id="t26"/>
+        </span>
+      </t>
+      <t id="ter27">
+        <span>
+          <target id="t27"/>
+        </span>
+      </t>
+      <t id="ter28">
+        <span>
+          <target id="t28"/>
+        </span>
+      </t>
+      <t id="ter29">
+        <span>
+          <target id="t29"/>
+        </span>
+      </t>
+      <t id="ter30">
+        <span>
+          <target id="t30"/>
+        </span>
+      </t>
+      <t id="ter31">
+        <span>
+          <target id="t31"/>
+        </span>
+      </t>
+      <t id="ter32">
+        <span>
+          <target id="t32"/>
+        </span>
+      </t>
+      <edge from="nter34" id="tre52" to="nter33"/>
+      <edge from="nter35" id="tre53" to="nter34"/>
+      <edge from="nter36" id="tre54" to="nter35"/>
+      <edge from="nter37" id="tre55" to="nter36"/>
+      <edge from="ter19" id="tre56" to="nter37"/>
+      <edge from="nter38" head="yes" id="tre57" to="nter36"/>
+      <edge from="ter20" id="tre58" to="nter38"/>
+      <edge from="nter39" id="tre59" to="nter35"/>
+      <edge from="nter40" id="tre60" to="nter39"/>
+      <edge from="ter21" id="tre61" to="nter40"/>
+      <edge from="nter41" id="tre62" to="nter39"/>
+      <edge from="nter42" id="tre63" to="nter41"/>
+      <edge from="ter22" id="tre64" to="nter42"/>
+      <edge from="nter43" head="yes" id="tre65" to="nter41"/>
+      <edge from="ter23" id="tre66" to="nter43"/>
+      <edge from="nter44" id="tre67" to="nter34"/>
+      <edge from="ter24" id="tre68" to="nter44"/>
+      <edge from="nter45" head="yes" id="tre69" to="nter34"/>
+      <edge from="nter46" id="tre70" to="nter45"/>
+      <edge from="nter47" head="yes" id="tre71" to="nter46"/>
+      <edge from="ter25" id="tre72" to="nter47"/>
+      <edge from="nter48" id="tre73" to="nter45"/>
+      <edge from="nter49" id="tre74" to="nter48"/>
+      <edge from="ter26" id="tre75" to="nter49"/>
+      <edge from="nter50" id="tre76" to="nter48"/>
+      <edge from="nter51" head="yes" id="tre77" to="nter50"/>
+      <edge from="ter27" id="tre78" to="nter51"/>
+      <edge from="nter52" id="tre79" to="nter48"/>
+      <edge from="nter53" id="tre80" to="nter52"/>
+      <edge from="nter54" id="tre81" to="nter53"/>
+      <edge from="ter28" id="tre82" to="nter54"/>
+      <edge from="nter55" head="yes" id="tre83" to="nter53"/>
+      <edge from="ter29" id="tre84" to="nter55"/>
+      <edge from="nter56" id="tre85" to="nter52"/>
+      <edge from="nter57" id="tre86" to="nter56"/>
+      <edge from="ter30" id="tre87" to="nter57"/>
+      <edge from="nter58" id="tre88" to="nter56"/>
+      <edge from="nter59" head="yes" id="tre89" to="nter58"/>
+      <edge from="ter31" id="tre90" to="nter59"/>
+      <edge from="nter60" id="tre91" to="nter34"/>
+      <edge from="ter32" id="tre92" to="nter60"/>
+    </tree>
+    <tree>
+      <nt id="nter61" label="TOP"/>
+      <nt id="nter62" label="ADJP"/>
+      <nt id="nter63" label="ADJ~QU"/>
+      <nt id="nter64" label="PP"/>
+      <nt id="nter65" label="PREP"/>
+      <nt id="nter66" label="NP"/>
+      <nt id="nter67" label="ART~IN"/>
+      <nt id="nter68" label="NP"/>
+      <nt id="nter69" label="NOU~CS"/>
+      <nt id="nter70" label="ADJ~QU"/>
+      <nt id="nter71" label="PP"/>
+      <nt id="nter72" label="PREP"/>
+      <nt id="nter73" label="NP"/>
+      <nt id="nter74" label="NOU~CS"/>
+      <nt id="nter75" label="."/>
+      <t id="ter33">
+        <span>
+          <target id="t33"/>
+        </span>
+      </t>
+      <t id="ter34">
+        <span>
+          <target id="t34"/>
+        </span>
+      </t>
+      <t id="ter35">
+        <span>
+          <target id="t35"/>
+        </span>
+      </t>
+      <t id="ter36">
+        <span>
+          <target id="t36"/>
+        </span>
+      </t>
+      <t id="ter37">
+        <span>
+          <target id="t37"/>
+        </span>
+      </t>
+      <t id="ter38">
+        <span>
+          <target id="t38"/>
+        </span>
+      </t>
+      <t id="ter39">
+        <span>
+          <target id="t39"/>
+        </span>
+      </t>
+      <t id="ter40">
+        <span>
+          <target id="t40"/>
+        </span>
+      </t>
+      <edge from="nter62" id="tre94" to="nter61"/>
+      <edge from="nter63" id="tre95" to="nter62"/>
+      <edge from="ter33" id="tre96" to="nter63"/>
+      <edge from="nter64" id="tre97" to="nter62"/>
+      <edge from="nter65" id="tre98" to="nter64"/>
+      <edge from="ter34" id="tre99" to="nter65"/>
+      <edge from="nter66" id="tre100" to="nter64"/>
+      <edge from="nter67" id="tre101" to="nter66"/>
+      <edge from="ter35" id="tre102" to="nter67"/>
+      <edge from="nter68" id="tre103" to="nter66"/>
+      <edge from="nter69" id="tre104" to="nter68"/>
+      <edge from="ter36" id="tre105" to="nter69"/>
+      <edge from="nter70" head="yes" id="tre106" to="nter68"/>
+      <edge from="ter37" id="tre107" to="nter70"/>
+      <edge from="nter71" id="tre108" to="nter66"/>
+      <edge from="nter72" id="tre109" to="nter71"/>
+      <edge from="ter38" id="tre110" to="nter72"/>
+      <edge from="nter73" id="tre111" to="nter71"/>
+      <edge from="nter74" head="yes" id="tre112" to="nter73"/>
+      <edge from="ter39" id="tre113" to="nter74"/>
+      <edge from="nter75" head="yes" id="tre114" to="nter62"/>
+      <edge from="ter40" id="tre115" to="nter75"/>
+    </tree>
+    <tree>
+      <nt id="nter76" label="TOP"/>
+      <nt id="nter77" label="PP"/>
+      <nt id="nter78" label="PREP"/>
+      <nt id="nter79" label="NP"/>
+      <nt id="nter80" label="NP"/>
+      <nt id="nter81" label="ART~DE"/>
+      <nt id="nter82" label="NOU~CS"/>
+      <nt id="nter83" label="CONJ"/>
+      <nt id="nter84" label="NP"/>
+      <nt id="nter85" label="ART~DE"/>
+      <nt id="nter86" label="NOU~CP"/>
+      <nt id="nter87" label="."/>
+      <t id="ter41">
+        <span>
+          <target id="t41"/>
+        </span>
+      </t>
+      <t id="ter42">
+        <span>
+          <target id="t42"/>
+        </span>
+      </t>
+      <t id="ter43">
+        <span>
+          <target id="t43"/>
+        </span>
+      </t>
+      <t id="ter44">
+        <span>
+          <target id="t44"/>
+        </span>
+      </t>
+      <t id="ter45">
+        <span>
+          <target id="t45"/>
+        </span>
+      </t>
+      <t id="ter46">
+        <span>
+          <target id="t46"/>
+        </span>
+      </t>
+      <t id="ter47">
+        <span>
+          <target id="t47"/>
+        </span>
+      </t>
+      <edge from="nter77" id="tre117" to="nter76"/>
+      <edge from="nter78" id="tre118" to="nter77"/>
+      <edge from="ter41" id="tre119" to="nter78"/>
+      <edge from="nter79" id="tre120" to="nter77"/>
+      <edge from="nter80" id="tre121" to="nter79"/>
+      <edge from="nter81" id="tre122" to="nter80"/>
+      <edge from="ter42" id="tre123" to="nter81"/>
+      <edge from="nter82" head="yes" id="tre124" to="nter80"/>
+      <edge from="ter43" id="tre125" to="nter82"/>
+      <edge from="nter83" id="tre126" to="nter79"/>
+      <edge from="ter44" id="tre127" to="nter83"/>
+      <edge from="nter84" id="tre128" to="nter79"/>
+      <edge from="nter85" id="tre129" to="nter84"/>
+      <edge from="ter45" id="tre130" to="nter85"/>
+      <edge from="nter86" head="yes" id="tre131" to="nter84"/>
+      <edge from="ter46" id="tre132" to="nter86"/>
+      <edge from="nter87" head="yes" id="tre133" to="nter77"/>
+      <edge from="ter47" id="tre134" to="nter87"/>
+    </tree>
+  </constituency>
+  <coreferences>
+    <coref coid="co1">
+      <!--Ottimo Family Hotel-->
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+        <target id="t3"/>
+      </span>
+    </coref>
+    <coref coid="co2">
+      <!--consigliato-->
+      <span>
+        <target id="t5"/>
+      </span>
+    </coref>
+    <coref coid="co3">
+      <!--consigliato per il rapporto qualità e prezzo e per la zona davvero bella-->
+      <span>
+        <target id="t5"/>
+        <target id="t6"/>
+        <target id="t7"/>
+        <target id="t8"/>
+        <target id="t9"/>
+        <target id="t10"/>
+        <target id="t11"/>
+        <target id="t12"/>
+        <target id="t13"/>
+        <target id="t14"/>
+        <target id="t15"/>
+        <target id="t16"/>
+        <target id="t17"/>
+      </span>
+    </coref>
+    <coref coid="co4">
+      <!--il rapporto qualità-->
+      <span>
+        <target id="t7"/>
+        <target id="t8"/>
+        <target id="t9"/>
+      </span>
+    </coref>
+    <coref coid="co5">
+      <!--il rapporto qualità e prezzo-->
+      <span>
+        <target id="t7"/>
+        <target id="t8"/>
+        <target id="t9"/>
+        <target id="t10"/>
+        <target id="t11"/>
+      </span>
+    </coref>
+    <coref coid="co6">
+      <!--La pineta-->
+      <span>
+        <target id="t19"/>
+        <target id="t20"/>
+      </span>
+    </coref>
+    <coref coid="co7">
+      <!--c'-->
+      <span>
+        <target id="t25"/>
+      </span>
+    </coref>
+    <coref coid="co8">
+      <!--un angolo-->
+      <span>
+        <target id="t28"/>
+        <target id="t29"/>
+      </span>
+    </coref>
+    <coref coid="co9">
+      <!--un angolo all' ombra-->
+      <span>
+        <target id="t28"/>
+        <target id="t29"/>
+        <target id="t30"/>
+        <target id="t31"/>
+      </span>
+    </coref>
+    <coref coid="co10">
+      <!--una vacanza rilassante in romagna-->
+      <span>
+        <target id="t35"/>
+        <target id="t36"/>
+        <target id="t37"/>
+        <target id="t38"/>
+        <target id="t39"/>
+      </span>
+    </coref>
+    <coref coid="co11">
+      <!--vacanza rilassante-->
+      <span>
+        <target id="t36"/>
+        <target id="t37"/>
+      </span>
+    </coref>
+    <coref coid="co12">
+      <!--l' accoglienza-->
+      <span>
+        <target id="t42"/>
+        <target id="t43"/>
+      </span>
+    </coref>
+    <coref coid="co13">
+      <!--l' accoglienza e le pulizie-->
+      <span>
+        <target id="t42"/>
+        <target id="t43"/>
+        <target id="t44"/>
+        <target id="t45"/>
+        <target id="t46"/>
+      </span>
+    </coref>
+  </coreferences>
+  <opinions>
+    <opinion oid="19_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--accoglienza-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Buona-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="19_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--pulizie-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Buona-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="10_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--zona-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--davvero bella-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Family Hotel-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Ottimo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="13_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--pineta-->
+        <span>
+          <target id="t20"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--veramente grande-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="7_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--rapporto qualità e prezzo-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--consigliato-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>
