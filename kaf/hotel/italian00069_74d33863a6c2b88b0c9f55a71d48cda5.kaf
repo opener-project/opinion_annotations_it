@@ -18,8 +18,11 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-it" timestamp="2014-01-14T17:21:59" version="0.8"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:32CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:22CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:32CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2651,4 +2654,86 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t82"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t84"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t72"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t55"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t102"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Staff">
+        <references>
+          <span>
+            <target id="t120"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Staff">
+        <references>
+          <span>
+            <target id="t86"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Internet">
+        <references>
+          <span>
+            <target id="t100"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t27"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t38"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p10" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t52"/>
+            <target id="t53"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

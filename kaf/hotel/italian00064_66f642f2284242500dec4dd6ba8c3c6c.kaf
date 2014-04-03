@@ -18,8 +18,11 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-it" timestamp="2014-01-14T17:21:47" version="0.8"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:15CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2492,4 +2495,62 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t56"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t40"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t63"/>
+            <target id="t64"/>
+            <target id="t65"/>
+            <target id="t66"/>
+            <target id="t67"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t72"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t103"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t25"/>
+            <target id="t26"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

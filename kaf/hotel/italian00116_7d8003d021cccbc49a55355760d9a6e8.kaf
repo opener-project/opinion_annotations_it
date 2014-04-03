@@ -14,8 +14,11 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:44:11" version="1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:15CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3089,4 +3092,98 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t44"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t63"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Beds">
+        <references>
+          <span>
+            <target id="t49"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t79"/>
+            <target id="t80"/>
+            <target id="t81"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t108"/>
+            <target id="t109"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Internet">
+        <references>
+          <span>
+            <target id="t141"/>
+            <target id="t142"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Transportation">
+        <references>
+          <span>
+            <target id="t133"/>
+            <target id="t134"/>
+            <target id="t135"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t67"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t88"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Staff">
+        <references>
+          <span>
+            <target id="t90"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p10" lemma="Location">
+        <references>
+          <span>
+            <target id="t138"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p11" lemma="Location">
+        <references>
+          <span>
+            <target id="t5"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

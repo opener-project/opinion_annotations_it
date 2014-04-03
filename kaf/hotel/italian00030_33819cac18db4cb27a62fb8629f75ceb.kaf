@@ -18,8 +18,11 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-it" timestamp="2014-01-14T17:20:33" version="0.8"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:16CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3119,4 +3122,53 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t93"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t62"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t84"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t72"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t138"/>
+            <target id="t139"/>
+            <target id="t140"/>
+            <target id="t141"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Staff">
+        <references>
+          <span>
+            <target id="t105"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

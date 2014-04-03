@@ -14,8 +14,11 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:49" version="1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:15CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2519,4 +2522,79 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t87"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Beds">
+        <references>
+          <span>
+            <target id="t32"/>
+            <target id="t33"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t25"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t74"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t43"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t84"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Location">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t7"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t9"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

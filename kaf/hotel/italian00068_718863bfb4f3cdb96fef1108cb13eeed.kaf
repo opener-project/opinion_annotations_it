@@ -18,8 +18,11 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-it" timestamp="2014-01-14T17:21:57" version="0.8"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:15CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1619,4 +1622,64 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t27"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t42"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t53"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t65"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t70"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t9"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Staff">
+        <references>
+          <span>
+            <target id="t11"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t13"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

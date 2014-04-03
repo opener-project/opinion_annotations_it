@@ -14,8 +14,11 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:46" version="1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:18CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2579,4 +2582,38 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t23"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t122"/>
+            <target id="t123"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t47"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t53"/>
+            <target id="t54"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

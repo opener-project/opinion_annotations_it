@@ -18,8 +18,11 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-it" timestamp="2014-01-14T17:21:42" version="0.8"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:17CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -992,4 +995,30 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t14"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t5"/>
+            <target id="t6"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

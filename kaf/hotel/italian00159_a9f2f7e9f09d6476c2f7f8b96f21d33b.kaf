@@ -14,8 +14,11 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:17" version="1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:19CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1530,4 +1533,44 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t58"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t30"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t5"/>
+            <target id="t6"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t21"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

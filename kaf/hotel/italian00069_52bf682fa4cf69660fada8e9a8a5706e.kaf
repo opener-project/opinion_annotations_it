@@ -14,8 +14,11 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:00" version="1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:44:18CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2375,4 +2378,95 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t71"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t69"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t30"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t85"/>
+            <target id="t86"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t40"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t83"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Internet">
+        <references>
+          <span>
+            <target id="t101"/>
+            <target id="t102"/>
+            <target id="t103"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t77"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t20"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t73"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p10" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t61"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p11" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t75"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>
