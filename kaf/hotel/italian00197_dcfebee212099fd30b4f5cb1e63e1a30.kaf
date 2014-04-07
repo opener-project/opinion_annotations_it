@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:14" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1477,139 +1477,6 @@
       <edge id="tre222" from="ter78" to="nter144"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze-->
-        <span>
-          <target id="t28"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--senza nessun confort-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="11_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze-->
-        <span>
-          <target id="t28"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non curate-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="11_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze-->
-        <span>
-          <target id="t28"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--molto vecchie-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="11_3">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze-->
-        <span>
-          <target id="t28"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--piccole-->
-        <span>
-          <target id="t35"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--grossa delusione-->
-        <span>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t46"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--pressochè assente-->
-        <span>
-          <target id="t48"/>
-          <target id="t49"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro città-->
-        <span>
-          <target id="t76"/>
-          <target id="t77"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--prossimità-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--oltre al portiere non c' è nessuno che possa darvi supporto in caso di bisogno-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-          <target id="t63"/>
-          <target id="t64"/>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -1642,4 +1509,145 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze-->
+        <span>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--senza nessun confort-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze-->
+        <span>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non curate-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze-->
+        <span>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--molto vecchie-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze-->
+        <span>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--piccole-->
+        <span>
+          <target id="t35"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--grossa delusione-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--pressochè assente-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro città-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--prossimità-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--oltre al portiere non c' è nessuno che possa darvi supporto in caso di bisogno-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:49" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2691,89 +2691,6 @@
       <edge id="tre419" from="ter147" to="nter272"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--doccie calde-->
-        <span>
-          <target id="t112"/>
-          <target id="t113"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratis-->
-        <span>
-          <target id="t114"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piscina-->
-        <span>
-          <target id="t85"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--comodissima-->
-        <span>
-          <target id="t84"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizi igenici-->
-        <span>
-          <target id="t102"/>
-          <target id="t103"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ben tenuti-->
-        <span>
-          <target id="t109"/>
-          <target id="t110"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizi igenici-->
-        <span>
-          <target id="t102"/>
-          <target id="t103"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimi-->
-        <span>
-          <target id="t107"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Passignano-->
-        <span>
-          <target id="t126"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a pochi passi-->
-        <span>
-          <target id="t121"/>
-          <target id="t122"/>
-          <target id="t123"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2802,4 +2719,92 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--doccie calde-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratis-->
+        <span>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--piscina-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--comodissima-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizi igenici-->
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ben tenuti-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizi igenici-->
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimi-->
+        <span>
+          <target id="t107"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Passignano-->
+        <span>
+          <target id="t126"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a pochi passi-->
+        <span>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

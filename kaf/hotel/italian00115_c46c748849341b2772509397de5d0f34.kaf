@@ -19,10 +19,10 @@
       <lp name="corefgraph-it" timestamp="2014-01-14T17:23:44" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1088,8 +1088,27 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t22"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t53"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="13_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
       <opinion_holder/>
       <opinion_target>
         <!--servizio tradizionale-->
@@ -1106,7 +1125,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target>
         <!--Cucina-->
@@ -1121,7 +1141,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="16_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target>
         <!--Contesto ambientale-->
@@ -1138,7 +1159,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="18_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongNegative">
@@ -1150,7 +1172,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="23_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
         <!--gentilezza di tutto il personale-->
@@ -1171,7 +1194,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--Location-->
@@ -1186,7 +1210,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--servizio-->
@@ -1202,22 +1227,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t22"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Staff">
-        <references>
-          <span>
-            <target id="t53"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

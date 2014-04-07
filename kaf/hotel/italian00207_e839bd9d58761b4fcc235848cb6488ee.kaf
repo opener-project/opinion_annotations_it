@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:29" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -748,79 +748,6 @@
       <edge id="tre110" from="ter40" to="nter70"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pareti-->
-        <span>
-          <target id="t33"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sporche-->
-        <span>
-          <target id="t34"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--dal duomo-->
-        <span>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a due passi-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--infissi esterni-->
-        <span>
-          <target id="t36"/>
-          <target id="t37"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--fanno pena-->
-        <span>
-          <target id="t38"/>
-          <target id="t39"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--cura delle stanze-->
-        <span>
-          <target id="t29"/>
-          <target id="t30"/>
-          <target id="t31"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--lascia un po a desiderare-->
-        <span>
-          <target id="t23"/>
-          <target id="t24"/>
-          <target id="t25"/>
-          <target id="t26"/>
-          <target id="t27"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -863,4 +790,81 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pareti-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sporche-->
+        <span>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--dal duomo-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a due passi-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--infissi esterni-->
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--fanno pena-->
+        <span>
+          <target id="t38"/>
+          <target id="t39"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cura delle stanze-->
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--lascia un po a desiderare-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

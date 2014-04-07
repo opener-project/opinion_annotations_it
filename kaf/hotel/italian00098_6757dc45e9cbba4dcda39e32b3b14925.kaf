@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:44" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -637,79 +637,6 @@
       <edge id="tre98" from="ter33" to="nter65"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--struttura-->
-        <span>
-          <target id="t20"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--delusi-->
-        <span>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pulizia-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--mancnza di-->
-        <span>
-          <target id="t22"/>
-          <target id="t23"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale.-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--freddezza-->
-        <span>
-          <target id="t27"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--Incredibile-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--dimenticare-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -735,4 +662,82 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--struttura-->
+        <span>
+          <target id="t20"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--delusi-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pulizia-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--mancnza di-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale.-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--freddezza-->
+        <span>
+          <target id="t27"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--Incredibile-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--dimenticare-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:41:13" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1975,130 +1975,6 @@
       <edge id="tre314" from="ter106" to="nter208"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--molto piccolo-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--check · in-->
-        <span>
-          <target id="t20"/>
-          <target id="t21"/>
-          <target id="t22"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--interminabile-->
-        <span>
-          <target id="t25"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--prenotazione-->
-        <span>
-          <target id="t34"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sparita-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Piccolo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="34_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--reception-->
-        <span>
-          <target id="t84"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--deserta dalle 22.00 alle 07.00-->
-        <span>
-          <target id="t86"/>
-          <target id="t87"/>
-          <target id="t88"/>
-          <target id="t89"/>
-          <target id="t90"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--non custodito-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Zona-->
-        <span>
-          <target id="t5"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbastanza centrale-->
-        <span>
-          <target id="t6"/>
-          <target id="t7"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--receptionist-->
-        <span>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--problemi con l' inglese-->
-        <span>
-          <target id="t39"/>
-          <target id="t42"/>
-          <target id="t43"/>
-          <target id="t44"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Reservation/check-in/check-out">
@@ -2147,4 +2023,136 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--molto piccolo-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--check · in-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--interminabile-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prenotazione-->
+        <span>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sparita-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Piccolo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=34-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--reception-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--deserta dalle 22.00 alle 07.00-->
+        <span>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--non custodito-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Zona-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbastanza centrale-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--receptionist-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--problemi con l' inglese-->
+        <span>
+          <target id="t39"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

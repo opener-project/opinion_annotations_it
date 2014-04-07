@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:54" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2124,62 +2124,6 @@
       <edge id="tre325" from="ter114" to="nter211"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--parcheggio-->
-        <span>
-          <target id="t46"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--crea un lago-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--parcheggio-->
-        <span>
-          <target id="t46"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--fatto male-->
-        <span>
-          <target id="t50"/>
-          <target id="t51"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Mai più-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Latitanti-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -2198,4 +2142,64 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--parcheggio-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--crea un lago-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--parcheggio-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--fatto male-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Mai più-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Latitanti-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

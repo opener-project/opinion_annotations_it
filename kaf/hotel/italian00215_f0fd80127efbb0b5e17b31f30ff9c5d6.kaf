@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:41" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2465,81 +2465,6 @@
       <edge id="tre378" from="ter134" to="nter244"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--rumorosita-->
-        <span>
-          <target id="t107"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--docce-->
-        <span>
-          <target id="t111"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--vecchie-->
-        <span>
-          <target id="t114"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--docce-->
-        <span>
-          <target id="t111"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--penose-->
-        <span>
-          <target id="t112"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Simpatia-->
-        <span>
-          <target id="t77"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--no comment-->
-        <span>
-          <target id="t82"/>
-          <target id="t83"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--intelligenza commerciale-->
-        <span>
-          <target id="t79"/>
-          <target id="t80"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--no comment-->
-        <span>
-          <target id="t82"/>
-          <target id="t83"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Bathroom">
@@ -2565,4 +2490,84 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--rumorosita-->
+        <span>
+          <target id="t107"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--docce-->
+        <span>
+          <target id="t111"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--vecchie-->
+        <span>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--docce-->
+        <span>
+          <target id="t111"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--penose-->
+        <span>
+          <target id="t112"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Simpatia-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--no comment-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--intelligenza commerciale-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--no comment-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:30" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2143,119 +2143,6 @@
       <edge id="tre342" from="ter114" to="nter228"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--autostrada-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicinanza-->
-        <span>
-          <target id="t65"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="9_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--aeroporto di Fiumicino-->
-        <span>
-          <target id="t71"/>
-          <target id="t72"/>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicinanza-->
-        <span>
-          <target id="t65"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t111"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottime-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio Shuttle-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--offre un-->
-        <span>
-          <target id="t51"/>
-          <target id="t52"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio-->
-        <span>
-          <target id="t113"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--eccellente-->
-        <span>
-          <target id="t114"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t99"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--di alto livello-->
-        <span>
-          <target id="t106"/>
-          <target id="t107"/>
-          <target id="t108"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t99"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--dinamico-->
-        <span>
-          <target id="t100"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Transportation">
@@ -2282,4 +2169,124 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--autostrada-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicinanza-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--aeroporto di Fiumicino-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicinanza-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t111"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottime-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio Shuttle-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--offre un-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio-->
+        <span>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--eccellente-->
+        <span>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t99"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--di alto livello-->
+        <span>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t99"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--dinamico-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

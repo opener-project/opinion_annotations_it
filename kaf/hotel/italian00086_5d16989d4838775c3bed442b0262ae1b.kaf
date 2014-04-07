@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:26" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2718,8 +2718,28 @@
       <edge id="tre417" from="ter147" to="nter270"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t113"/>
+            <target id="t114"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t121"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="24_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
       <opinion_holder/>
       <opinion_target>
         <!--tutto-->
@@ -2735,7 +2755,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target>
         <!--struttura-->
@@ -2753,7 +2774,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="16_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target>
         <!--alberi-->
@@ -2768,7 +2790,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="19_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
       <opinion_holder/>
       <opinion_target>
         <!--spazio dove mettere la tenda-->
@@ -2789,7 +2812,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="28_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
       <opinion_holder/>
       <opinion_target>
         <!--servizi igenici-->
@@ -2805,7 +2829,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="35_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -2816,7 +2841,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="33_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=33-->
       <opinion_holder/>
       <opinion_target>
         <!--spiaggietta attrezzata-->
@@ -2835,7 +2861,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="33_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=33-->
       <opinion_holder/>
       <opinion_target>
         <!--piscina-->
@@ -2853,7 +2880,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
         <!--Uno dei campeggi-->
@@ -2874,7 +2902,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>
         <!--campeggio-->
@@ -2889,7 +2918,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>
         <!--campeggio-->
@@ -2906,23 +2936,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Bathroom">
-        <references>
-          <span>
-            <target id="t113"/>
-            <target id="t114"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Swimming pool">
-        <references>
-          <span>
-            <target id="t121"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

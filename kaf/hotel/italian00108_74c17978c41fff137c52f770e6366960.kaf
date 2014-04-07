@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:59" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1588,251 +1588,6 @@
       <edge id="tre254" from="ter85" to="nter169"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--esterno-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non è un granchè-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-          <target id="t14"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--interno-->
-        <span>
-          <target id="t18"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--ancora peggio-->
-        <span>
-          <target id="t20"/>
-          <target id="t21"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pavimento-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sporco-->
-        <span>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="25_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camera-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--gli insetti-->
-        <span>
-          <target id="t38"/>
-          <target id="t39"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pulizia-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--scarsa-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--tovaglie-->
-        <span>
-          <target id="t42"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--erano sporche dalla sera prima.-->
-        <span>
-          <target id="t47"/>
-          <target id="t48"/>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="45_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--mobili-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--rosicchiati dai tarli.-->
-        <span>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="45_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--mobili-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--vecchi-->
-        <span>
-          <target id="t75"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--materassi-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--erano ammucchiati due-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-          <target id="t67"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--materassi-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--polverosi.-->
-        <span>
-          <target id="t71"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--materassi-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--vecchi-->
-        <span>
-          <target id="t69"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="34_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ascensore-->
-        <span>
-          <target id="t56"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non c' è-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--Pessimo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="49_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t81"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbastanza disponibile-->
-        <span>
-          <target id="t83"/>
-          <target id="t84"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--questo hotel.-->
-        <span>
-          <target id="t5"/>
-          <target id="t6"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--Sconsiglio assolutamente-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -1907,4 +1662,264 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--esterno-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non è un granchè-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--interno-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--ancora peggio-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pavimento-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sporco-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camera-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--gli insetti-->
+        <span>
+          <target id="t38"/>
+          <target id="t39"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pulizia-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--scarsa-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--tovaglie-->
+        <span>
+          <target id="t42"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--erano sporche dalla sera prima.-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=45-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mobili-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--rosicchiati dai tarli.-->
+        <span>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=45-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mobili-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--vecchi-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--materassi-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--erano ammucchiati due-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--materassi-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--polverosi.-->
+        <span>
+          <target id="t71"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--materassi-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--vecchi-->
+        <span>
+          <target id="t69"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=34-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ascensore-->
+        <span>
+          <target id="t56"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non c' è-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--Pessimo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=49-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbastanza disponibile-->
+        <span>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--questo hotel.-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--Sconsiglio assolutamente-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

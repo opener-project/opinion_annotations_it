@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:09" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2460,221 +2460,6 @@
       <edge id="tre381" from="ter131" to="nter250"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ricavate da vecchie stanze-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="11_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--grandi-->
-        <span>
-          <target id="t51"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagno-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--piccolo-->
-        <span>
-          <target id="t75"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagno-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbastanza pulito-->
-        <span>
-          <target id="t77"/>
-          <target id="t78"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--mobilio-->
-        <span>
-          <target id="t67"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--molto vecchio-->
-        <span>
-          <target id="t69"/>
-          <target id="t70"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--odore di muffa-->
-        <span>
-          <target id="t62"/>
-          <target id="t63"/>
-          <target id="t64"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--c' è un leggero-->
-        <span>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--letti-->
-        <span>
-          <target id="t81"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--comodi-->
-        <span>
-          <target id="t83"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--letti-->
-        <span>
-          <target id="t81"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--mi ha sorpreso la pulizia-->
-        <span>
-          <target id="t87"/>
-          <target id="t88"/>
-          <target id="t89"/>
-          <target id="t90"/>
-          <target id="t91"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="36_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Wifi-->
-        <span>
-          <target id="t96"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--nella hall gratuito-->
-        <span>
-          <target id="t97"/>
-          <target id="t98"/>
-          <target id="t99"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="41_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stazioni-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicinissimo-->
-        <span>
-          <target id="t108"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="41_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--fermate dei tram-->
-        <span>
-          <target id="t113"/>
-          <target id="t114"/>
-          <target id="t115"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicinissimo-->
-        <span>
-          <target id="t108"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Minimo di legge-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-          <target id="t3"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--questo albergo-->
-        <span>
-          <target id="t27"/>
-          <target id="t28"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--niente di particolare-->
-        <span>
-          <target id="t23"/>
-          <target id="t24"/>
-          <target id="t25"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Bathroom">
@@ -2728,4 +2513,232 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ricavate da vecchie stanze-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--grandi-->
+        <span>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagno-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--piccolo-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagno-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbastanza pulito-->
+        <span>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mobilio-->
+        <span>
+          <target id="t67"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--molto vecchio-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--odore di muffa-->
+        <span>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--c' è un leggero-->
+        <span>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--letti-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--comodi-->
+        <span>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--letti-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--mi ha sorpreso la pulizia-->
+        <span>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=36-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Wifi-->
+        <span>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--nella hall gratuito-->
+        <span>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=41-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stazioni-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicinissimo-->
+        <span>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=41-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--fermate dei tram-->
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicinissimo-->
+        <span>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Minimo di legge-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--questo albergo-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--niente di particolare-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

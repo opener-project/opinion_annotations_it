@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:32" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1419,74 +1419,6 @@
       <edge id="tre215" from="ter75" to="nter140"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--aeroporto-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--si raggiuge facilmente-->
-        <span>
-          <target id="t20"/>
-          <target id="t21"/>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camere-->
-        <span>
-          <target id="t59"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--dimensioni adeguate-->
-        <span>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stazione metro-->
-        <span>
-          <target id="t7"/>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a pochi passi-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personale-->
-        <span>
-          <target id="t71"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--competente-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Transportation">
@@ -1522,4 +1454,76 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--aeroporto-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--si raggiuge facilmente-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camere-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--dimensioni adeguate-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stazione metro-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a pochi passi-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personale-->
+        <span>
+          <target id="t71"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--competente-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

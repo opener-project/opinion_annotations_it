@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:44:45" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:00CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:00CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1711,133 +1711,6 @@
       <edge id="tre258" from="ter93" to="nter165"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--bassa categoria-->
-        <span>
-          <target id="t30"/>
-          <target id="t31"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="38_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pulizia-->
-        <span>
-          <target id="t77"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--abbastanza di bassa qualita-->
-        <span>
-          <target id="t79"/>
-          <target id="t80"/>
-          <target id="t81"/>
-          <target id="t82"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze vecchie-->
-        <span>
-          <target id="t38"/>
-          <target id="t39"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--IMBARAZZANTE-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--muri delle stanze-->
-        <span>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sottilissimi-->
-        <span>
-          <target id="t61"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--muri delle stanze-->
-        <span>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--rumori dei corridoi-->
-        <span>
-          <target id="t66"/>
-          <target id="t67"/>
-          <target id="t68"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--andate in un altro albergo-->
-        <span>
-          <target id="t88"/>
-          <target id="t89"/>
-          <target id="t90"/>
-          <target id="t91"/>
-          <target id="t92"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="34_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--dormire-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--impossibile-->
-        <span>
-          <target id="t72"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--pessimo-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -1877,4 +1750,139 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--bassa categoria-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=38-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pulizia-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--abbastanza di bassa qualita-->
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze vecchie-->
+        <span>
+          <target id="t38"/>
+          <target id="t39"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--IMBARAZZANTE-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--muri delle stanze-->
+        <span>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sottilissimi-->
+        <span>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--muri delle stanze-->
+        <span>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--rumori dei corridoi-->
+        <span>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--andate in un altro albergo-->
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=34-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--dormire-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--impossibile-->
+        <span>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--pessimo-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

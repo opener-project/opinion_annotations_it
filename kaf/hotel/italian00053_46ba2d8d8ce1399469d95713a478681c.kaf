@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:36" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2899,177 +2899,6 @@
       <edge id="tre465" from="ter157" to="nter308"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="25_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--autista-->
-        <span>
-          <target id="t23"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--.Simpaticissimo-->
-        <span>
-          <target id="t21"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--navetta-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--buona-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--navetta-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuita-->
-        <span>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--mare-->
-        <span>
-          <target id="t14"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--dista a 10 min-->
-        <span>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-          <target id="t19"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--cambiare un lampadina-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-          <target id="t67"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ci sono voluti 4 interventi-->
-        <span>
-          <target id="t68"/>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t71"/>
-          <target id="t72"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--impiegata-->
-        <span>
-          <target id="t115"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--stava in disparte-->
-        <span>
-          <target id="t122"/>
-          <target id="t123"/>
-          <target id="t124"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="36_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--palesemente seccata-->
-        <span>
-          <target id="t142"/>
-          <target id="t143"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--attenzione al cliente-->
-        <span>
-          <target id="t154"/>
-          <target id="t155"/>
-          <target id="t156"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--scarsissima-->
-        <span>
-          <target id="t153"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Sufficiente-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Posto-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--tranquillità-->
-        <span>
-          <target id="t6"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Posto-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--carino-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -3102,4 +2931,186 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--autista-->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--.Simpaticissimo-->
+        <span>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--navetta-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--buona-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--navetta-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuita-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mare-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--dista a 10 min-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cambiare un lampadina-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ci sono voluti 4 interventi-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--impiegata-->
+        <span>
+          <target id="t115"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--stava in disparte-->
+        <span>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=36-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--palesemente seccata-->
+        <span>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--attenzione al cliente-->
+        <span>
+          <target id="t154"/>
+          <target id="t155"/>
+          <target id="t156"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--scarsissima-->
+        <span>
+          <target id="t153"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Sufficiente-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Posto-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--tranquillità-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Posto-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--carino-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

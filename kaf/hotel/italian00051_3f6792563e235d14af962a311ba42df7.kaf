@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:33" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -718,8 +718,20 @@
       <edge id="tre110" from="ter37" to="nter73"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t2"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="11_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
       <opinion_target>
         <!--cena in camera-->
@@ -737,7 +749,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="2_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongNegative">
@@ -747,7 +760,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
       <opinion_holder/>
       <opinion_target>
         <!--la cena-->
@@ -766,7 +780,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -777,7 +792,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--prezzo-->
@@ -793,15 +809,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t2"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

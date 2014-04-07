@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:41:25" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:00CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:00CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2473,200 +2473,6 @@
       <edge id="tre373" from="ter133" to="nter240"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t45"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--bellissime-->
-        <span>
-          <target id="t46"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--molto alla moda-->
-        <span>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--pieno di turisti-->
-        <span>
-          <target id="t62"/>
-          <target id="t63"/>
-          <target id="t64"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto elegante-->
-        <span>
-          <target id="t36"/>
-          <target id="t37"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--" Palma " di Dubai-->
-        <span>
-          <target id="t22"/>
-          <target id="t23"/>
-          <target id="t24"/>
-          <target id="t25"/>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--in fondo alla-->
-        <span>
-          <target id="t19"/>
-          <target id="t20"/>
-          <target id="t21"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--sempre presente-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gentile-->
-        <span>
-          <target id="t50"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--reception-->
-        <span>
-          <target id="t132"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Strepitosa-->
-        <span>
-          <target id="t130"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ristorante Nobu-->
-        <span>
-          <target id="t94"/>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--molto caro-->
-        <span>
-          <target id="t106"/>
-          <target id="t107"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ristorante Nobu-->
-        <span>
-          <target id="t94"/>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ambiente giovane frizzante-->
-        <span>
-          <target id="t98"/>
-          <target id="t99"/>
-          <target id="t101"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ristorante Nobu-->
-        <span>
-          <target id="t94"/>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--cucina eccellente-->
-        <span>
-          <target id="t103"/>
-          <target id="t104"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Atlantis The Palm-->
-        <span>
-          <target id="t10"/>
-          <target id="t11"/>
-          <target id="t12"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--posizione straordinaria-->
-        <span>
-          <target id="t16"/>
-          <target id="t17"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2723,4 +2529,210 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--bellissime-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--molto alla moda-->
+        <span>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--pieno di turisti-->
+        <span>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto elegante-->
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--" Palma " di Dubai-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--in fondo alla-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--sempre presente-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gentile-->
+        <span>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--reception-->
+        <span>
+          <target id="t132"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Strepitosa-->
+        <span>
+          <target id="t130"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ristorante Nobu-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--molto caro-->
+        <span>
+          <target id="t106"/>
+          <target id="t107"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ristorante Nobu-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ambiente giovane frizzante-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ristorante Nobu-->
+        <span>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--cucina eccellente-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Atlantis The Palm-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--posizione straordinaria-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

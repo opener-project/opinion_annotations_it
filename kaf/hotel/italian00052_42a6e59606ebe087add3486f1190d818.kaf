@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:34" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:00CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:00CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2585,134 +2585,6 @@
       <edge id="tre406" from="ter138" to="nter268"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="19_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--paese-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--raggiungibile a piedi-->
-        <span>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--paese-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicino-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Simoncello-->
-        <span>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ai piedi-->
-        <span>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Sasso Simone-->
-        <span>
-          <target id="t13"/>
-          <target id="t14"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ai piedi-->
-        <span>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posto-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Un in cui rigenerarsi-->
-        <span>
-          <target id="t1"/>
-          <target id="t3"/>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--campeggio Paradiso-->
-        <span>
-          <target id="t69"/>
-          <target id="t70"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--luogo ideale per i bambini-->
-        <span>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--immerso nel verde-->
-        <span>
-          <target id="t19"/>
-          <target id="t20"/>
-          <target id="t21"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--nella tranquillità-->
-        <span>
-          <target id="t23"/>
-          <target id="t24"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2748,4 +2620,140 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--paese-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--raggiungibile a piedi-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--paese-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicino-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Simoncello-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ai piedi-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Sasso Simone-->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ai piedi-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posto-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Un in cui rigenerarsi-->
+        <span>
+          <target id="t1"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--campeggio Paradiso-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--luogo ideale per i bambini-->
+        <span>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--immerso nel verde-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--nella tranquillità-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

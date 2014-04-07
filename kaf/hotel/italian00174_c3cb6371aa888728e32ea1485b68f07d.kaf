@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:40" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2507,123 +2507,6 @@
       <edge id="tre386" from="ter136" to="nter250"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piazza duomo-->
-        <span>
-          <target id="t22"/>
-          <target id="t23"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--In 10 min-->
-        <span>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t57"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--varia-->
-        <span>
-          <target id="t66"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t57"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbondante-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--questa tassa-->
-        <span>
-          <target id="t118"/>
-          <target id="t119"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--10 % della tariffa-->
-        <span>
-          <target id="t123"/>
-          <target id="t124"/>
-          <target id="t125"/>
-          <target id="t126"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--tassa di soggiorno-->
-        <span>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--salata-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posizione-->
-        <span>
-          <target id="t5"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--tranquilla-->
-        <span>
-          <target id="t6"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stazione metro-->
-        <span>
-          <target id="t13"/>
-          <target id="t14"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--vicinissimo-->
-        <span>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2669,4 +2552,128 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--piazza duomo-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--In 10 min-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--varia-->
+        <span>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbondante-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--questa tassa-->
+        <span>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--10 % della tariffa-->
+        <span>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--tassa di soggiorno-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--salata-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posizione-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--tranquilla-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stazione metro-->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--vicinissimo-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

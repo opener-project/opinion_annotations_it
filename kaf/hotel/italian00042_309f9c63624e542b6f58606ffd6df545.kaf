@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:20" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -869,115 +869,6 @@
       <edge id="tre131" from="ter45" to="nter86"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--struttura-->
-        <span>
-          <target id="t14"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Anche se sembra nuova-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t15"/>
-          <target id="t16"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t21"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--piccole-->
-        <span>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--luminosità-->
-        <span>
-          <target id="t25"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--scarsa-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="25_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--condizionatore-->
-        <span>
-          <target id="t38"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sporco-->
-        <span>
-          <target id="t44"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Sconsigliato-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Premier Inn-->
-        <span>
-          <target id="t7"/>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--peggior provato-->
-        <span>
-          <target id="t6"/>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--parcheggio-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--per poche macchine-->
-        <span>
-          <target id="t31"/>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -1003,4 +894,120 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--struttura-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Anche se sembra nuova-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t21"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--piccole-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--luminosità-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--scarsa-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--condizionatore-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sporco-->
+        <span>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Sconsigliato-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Premier Inn-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--peggior provato-->
+        <span>
+          <target id="t6"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--parcheggio-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--per poche macchine-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

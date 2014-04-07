@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:43" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2197,127 +2197,6 @@
       <edge id="tre335" from="ter119" to="nter216"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--soffitti-->
-        <span>
-          <target id="t11"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--molto bassi-->
-        <span>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--rumore-->
-        <span>
-          <target id="t53"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--se chiudete le finestre è accettabile-->
-        <span>
-          <target id="t48"/>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t54"/>
-          <target id="t55"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro-->
-        <span>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--molto vicino-->
-        <span>
-          <target id="t92"/>
-          <target id="t93"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--cucinare-->
-        <span>
-          <target id="t64"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ha tutto l' essenziale-->
-        <span>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--dormire-->
-        <span>
-          <target id="t66"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ha tutto l' essenziale-->
-        <span>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--appartamentino-->
-        <span>
-          <target id="t5"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Piccolo-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--scale-->
-        <span>
-          <target id="t15"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--molto ripide-->
-        <span>
-          <target id="t16"/>
-          <target id="t17"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Noisiness">
@@ -2344,4 +2223,132 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--soffitti-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--molto bassi-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--rumore-->
+        <span>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--se chiudete le finestre è accettabile-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--molto vicino-->
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cucinare-->
+        <span>
+          <target id="t64"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ha tutto l' essenziale-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--dormire-->
+        <span>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ha tutto l' essenziale-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--appartamentino-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Piccolo-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--scale-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--molto ripide-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:41:37" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:06CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:06CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1996,124 +1996,6 @@
       <edge id="tre311" from="ter107" to="nter204"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="25_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personale-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--nessun problema con l' inglese-->
-        <span>
-          <target id="t31"/>
-          <target id="t32"/>
-          <target id="t35"/>
-          <target id="t36"/>
-          <target id="t37"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="25_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personale-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--qualche difficoltà con l' italiano-->
-        <span>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-          <target id="t42"/>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="25_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personale-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--cortese disponibile-->
-        <span>
-          <target id="t27"/>
-          <target id="t29"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t11"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--posizione tranquilla-->
-        <span>
-          <target id="t13"/>
-          <target id="t14"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--transfer unico dall' hotel-->
-        <span>
-          <target id="t21"/>
-          <target id="t22"/>
-          <target id="t23"/>
-          <target id="t24"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Rapporto qualità prezzo-->
-        <span>
-          <target id="t6"/>
-          <target id="t7"/>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimo-->
-        <span>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--spiaggia libera-->
-        <span>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicinanze-->
-        <span>
-          <target id="t16"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2148,4 +2030,129 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personale-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--nessun problema con l' inglese-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personale-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--qualche difficoltà con l' italiano-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personale-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--cortese disponibile-->
+        <span>
+          <target id="t27"/>
+          <target id="t29"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--posizione tranquilla-->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--transfer unico dall' hotel-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Rapporto qualità prezzo-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--spiaggia libera-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicinanze-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

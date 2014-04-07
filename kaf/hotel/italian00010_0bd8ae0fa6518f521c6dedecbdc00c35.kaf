@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:41:30" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2923,190 +2923,6 @@
       <edge id="tre452" from="ter157" to="nter295"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--2 pc-->
-        <span>
-          <target id="t87"/>
-          <target id="t88"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--da poter utilizzare-->
-        <span>
-          <target id="t89"/>
-          <target id="t90"/>
-          <target id="t91"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="39_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t145"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--consiglio-->
-        <span>
-          <target id="t143"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bar-->
-        <span>
-          <target id="t94"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--aperto fino a tarda notte-->
-        <span>
-          <target id="t95"/>
-          <target id="t96"/>
-          <target id="t97"/>
-          <target id="t98"/>
-          <target id="t99"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--alla fermata di Sharaf DG Metro Station 2-->
-        <span>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicino-->
-        <span>
-          <target id="t54"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pulizia-->
-        <span>
-          <target id="t102"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Ottima-->
-        <span>
-          <target id="t101"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pulizia-->
-        <span>
-          <target id="t102"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--cambio tutti i giorni-->
-        <span>
-          <target id="t104"/>
-          <target id="t105"/>
-          <target id="t106"/>
-          <target id="t107"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="36_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t109"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbastanza grande-->
-        <span>
-          <target id="t110"/>
-          <target id="t111"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--prezzo-->
-        <span>
-          <target id="t5"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimo-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--la metropolitana-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto vicina-->
-        <span>
-          <target id="t49"/>
-          <target id="t50"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro commerciale Mall of the Emirates-->
-        <span>
-          <target id="t30"/>
-          <target id="t31"/>
-          <target id="t32"/>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--si raggiunge in max 10 minuti a piedi-->
-        <span>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-          <target id="t42"/>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Facilities">
@@ -3170,4 +2986,198 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--2 pc-->
+        <span>
+          <target id="t87"/>
+          <target id="t88"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--da poter utilizzare-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=39-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t145"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--consiglio-->
+        <span>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bar-->
+        <span>
+          <target id="t94"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--aperto fino a tarda notte-->
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--alla fermata di Sharaf DG Metro Station 2-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicino-->
+        <span>
+          <target id="t54"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pulizia-->
+        <span>
+          <target id="t102"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Ottima-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pulizia-->
+        <span>
+          <target id="t102"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--cambio tutti i giorni-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=36-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t109"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbastanza grande-->
+        <span>
+          <target id="t110"/>
+          <target id="t111"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prezzo-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--la metropolitana-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto vicina-->
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro commerciale Mall of the Emirates-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--si raggiunge in max 10 minuti a piedi-->
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:23" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -842,55 +842,6 @@
       <edge id="tre128" from="ter44" to="nter84"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--arredo camere-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimo-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--arredo hall-->
-        <span>
-          <target id="t40"/>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimo-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio-->
-        <span>
-          <target id="t38"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimo-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Interior/exterior">
@@ -909,4 +860,56 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--arredo camere-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--arredo hall-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

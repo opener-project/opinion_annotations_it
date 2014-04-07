@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:37" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2241,286 +2241,6 @@
       <edge id="tre349" from="ter120" to="nter229"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--disponibile-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--accogliente-->
-        <span>
-          <target id="t31"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Internet wifi-->
-        <span>
-          <target id="t33"/>
-          <target id="t34"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuito-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio bagagli-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuito-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--TV in camera-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-          <target id="t43"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuito-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="46_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pasta al ristorante interno-->
-        <span>
-          <target id="t116"/>
-          <target id="t117"/>
-          <target id="t118"/>
-          <target id="t119"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sconsigliarvi-->
-        <span>
-          <target id="t113"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--sauna-->
-        <span>
-          <target id="t76"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--è inoltre dotata di-->
-        <span>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--palestra-->
-        <span>
-          <target id="t78"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--è inoltre dotata di-->
-        <span>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="42_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--principali luoghi della città-->
-        <span>
-          <target id="t95"/>
-          <target id="t96"/>
-          <target id="t97"/>
-          <target id="t98"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--in pochi minuti-->
-        <span>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="42_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--rete di trasporti cittadina-->
-        <span>
-          <target id="t101"/>
-          <target id="t102"/>
-          <target id="t103"/>
-          <target id="t104"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--in pochi minuti-->
-        <span>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t59"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--curati-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--luoghi comuni-->
-        <span>
-          <target id="t62"/>
-          <target id="t63"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--curati-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t59"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto puliti-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_3">
-      <opinion_holder/>
-      <opinion_target>
-        <!--luoghi comuni-->
-        <span>
-          <target id="t62"/>
-          <target id="t63"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto puliti-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Tranquillità-->
-        <span>
-          <target id="t5"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Consigliatissimo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Pulizia-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Consigliatissimo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongPositive">
-        <!--pienamente soddisfatto-->
-        <span>
-          <target id="t22"/>
-          <target id="t23"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -2608,4 +2328,301 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--disponibile-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--accogliente-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Internet wifi-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuito-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio bagagli-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuito-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--TV in camera-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuito-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=46-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pasta al ristorante interno-->
+        <span>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sconsigliarvi-->
+        <span>
+          <target id="t113"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--sauna-->
+        <span>
+          <target id="t76"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--è inoltre dotata di-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--palestra-->
+        <span>
+          <target id="t78"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--è inoltre dotata di-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=42-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--principali luoghi della città-->
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--in pochi minuti-->
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=42-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--rete di trasporti cittadina-->
+        <span>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--in pochi minuti-->
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--curati-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--luoghi comuni-->
+        <span>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--curati-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto puliti-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--luoghi comuni-->
+        <span>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto puliti-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Tranquillità-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Consigliatissimo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Pulizia-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Consigliatissimo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--pienamente soddisfatto-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

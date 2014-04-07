@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:44:59" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1707,138 +1707,6 @@
       <edge id="tre267" from="ter91" to="nter176"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagno-->
-        <span>
-          <target id="t14"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--scomodo-->
-        <span>
-          <target id="t15"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camera doppia-->
-        <span>
-          <target id="t35"/>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--329,00 euro-->
-        <span>
-          <target id="t40"/>
-          <target id="t41"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--prima colazione-->
-        <span>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--decisamente troppo cara-->
-        <span>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--troppo distante-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--costo nolo biciclette-->
-        <span>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--eccessivo-->
-        <span>
-          <target id="t67"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--discretamente pulite-->
-        <span>
-          <target id="t8"/>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t51"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non educato-->
-        <span>
-          <target id="t54"/>
-          <target id="t55"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--finestre-->
-        <span>
-          <target id="t11"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--bloccate-->
-        <span>
-          <target id="t12"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Value-for-money">
@@ -1925,4 +1793,144 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagno-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--scomodo-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camera doppia-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--329,00 euro-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prima colazione-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--decisamente troppo cara-->
+        <span>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--troppo distante-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--costo nolo biciclette-->
+        <span>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--eccessivo-->
+        <span>
+          <target id="t67"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--discretamente pulite-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t51"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non educato-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--finestre-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--bloccate-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

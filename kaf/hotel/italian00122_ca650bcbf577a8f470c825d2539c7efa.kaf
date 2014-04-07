@@ -19,10 +19,10 @@
       <lp name="corefgraph-it" timestamp="2014-01-14T17:23:58" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -930,145 +930,6 @@
       </span>
     </coref>
   </coreferences>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posizione-->
-        <span>
-          <target id="t25"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Bella-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--vista-->
-        <span>
-          <target id="t28"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--bella-->
-        <span>
-          <target id="t27"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--San Gimignano-->
-        <span>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Vicinanza-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Follonica-->
-        <span>
-          <target id="t39"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Vicinanza-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Volterra-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Vicinanza-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_3">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Massa Marittima-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Vicinanza-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_4">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Siena-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Vicinanza-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--disponibile-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gentile-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -1087,4 +948,152 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posizione-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Bella-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--vista-->
+        <span>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bella-->
+        <span>
+          <target id="t27"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--San Gimignano-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Vicinanza-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Follonica-->
+        <span>
+          <target id="t39"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Vicinanza-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Volterra-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Vicinanza-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Massa Marittima-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Vicinanza-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Siena-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Vicinanza-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--disponibile-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gentile-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

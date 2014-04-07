@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:44:06" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1261,94 +1261,6 @@
       <edge id="tre197" from="ter66" to="nter131"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--Molto caro-->
-        <span>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ha attiguo l' ufficio-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--spesso vi passa gente davanti quando andate in bagno-->
-        <span>
-          <target id="t42"/>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-          <target id="t48"/>
-          <target id="t49"/>
-          <target id="t50"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro-->
-        <span>
-          <target id="t55"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Abbastanza lontano-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--prezzi-->
-        <span>
-          <target id="t13"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--li fanno sul momento-->
-        <span>
-          <target id="t14"/>
-          <target id="t15"/>
-          <target id="t16"/>
-          <target id="t17"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Value-for-money">
@@ -1374,4 +1286,97 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--Molto caro-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ha attiguo l' ufficio-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--spesso vi passa gente davanti quando andate in bagno-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro-->
+        <span>
+          <target id="t55"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Abbastanza lontano-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prezzi-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--li fanno sul momento-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

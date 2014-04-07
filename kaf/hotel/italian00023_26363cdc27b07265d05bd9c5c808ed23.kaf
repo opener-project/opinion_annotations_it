@@ -19,10 +19,10 @@
       <lp name="corefgraph-it" timestamp="2014-01-14T17:20:16" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1649,139 +1649,6 @@
       </span>
     </coref>
   </coreferences>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro di firenze-->
-        <span>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--dista 20 minuti in auto-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro di firenze-->
-        <span>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--immerso nel verde-->
-        <span>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t52"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--spogliatoi della piscina-->
-        <span>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t71"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--freddi-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t64"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--grandi-->
-        <span>
-          <target id="t66"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="23_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--Da consigliare a tutti-->
-        <span>
-          <target id="t82"/>
-          <target id="t83"/>
-          <target id="t84"/>
-          <target id="t85"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Ottimo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--disponibile-->
-        <span>
-          <target id="t48"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--veramente gentilissimo-->
-        <span>
-          <target id="t45"/>
-          <target id="t46"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -1818,4 +1685,145 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro di firenze-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--dista 20 minuti in auto-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro di firenze-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--immerso nel verde-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--spogliatoi della piscina-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--freddi-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t64"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--grandi-->
+        <span>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Da consigliare a tutti-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Ottimo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--disponibile-->
+        <span>
+          <target id="t48"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--veramente gentilissimo-->
+        <span>
+          <target id="t45"/>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

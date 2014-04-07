@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:01" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1274,8 +1274,28 @@
       <edge id="tre197" from="ter68" to="nter129"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t45"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t59"/>
+            <target id="t60"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -1285,7 +1305,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target>
         <!--colazione-->
@@ -1301,7 +1322,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="20_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
       <opinion_holder/>
       <opinion_target>
         <!--acqua calda-->
@@ -1322,7 +1344,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="20_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=20-->
       <opinion_holder/>
       <opinion_target>
         <!--acqua calda-->
@@ -1340,7 +1363,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongNegative">
@@ -1350,7 +1374,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--hotel-->
@@ -1365,7 +1390,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--hotel-->
@@ -1381,23 +1407,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t45"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Bathroom">
-        <references>
-          <span>
-            <target id="t59"/>
-            <target id="t60"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

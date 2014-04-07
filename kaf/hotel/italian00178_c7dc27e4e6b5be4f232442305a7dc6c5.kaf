@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:46" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1615,113 +1615,6 @@
       <edge id="tre249" from="ter86" to="nter163"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro-->
-        <span>
-          <target id="t48"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--lontano-->
-        <span>
-          <target id="t46"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--fermata del tram-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--con-->
-        <span>
-          <target id="t50"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio di transfer per l' aereoporto di Linate-->
-        <span>
-          <target id="t31"/>
-          <target id="t32"/>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--fornisce-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camere-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--pulite-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camere-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--sufficientemente ampie-->
-        <span>
-          <target id="t76"/>
-          <target id="t77"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="23_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t79"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--nella media per un 4 stelle-->
-        <span>
-          <target id="t80"/>
-          <target id="t81"/>
-          <target id="t82"/>
-          <target id="t83"/>
-          <target id="t84"/>
-          <target id="t85"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -1763,4 +1656,117 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro-->
+        <span>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--lontano-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--fermata del tram-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--con-->
+        <span>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio di transfer per l' aereoporto di Linate-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--fornisce-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camere-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--pulite-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camere-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--sufficientemente ampie-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--nella media per un 4 stelle-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

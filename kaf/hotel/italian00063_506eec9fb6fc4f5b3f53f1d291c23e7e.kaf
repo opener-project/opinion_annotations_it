@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:51" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1068,92 +1068,6 @@
       <edge id="tre167" from="ter57" to="nter110"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--albergo-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--posizione comoda-->
-        <span>
-          <target id="t14"/>
-          <target id="t15"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--cantina-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--con la muffa-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--muffa-->
-        <span>
-          <target id="t48"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sulla moquette-->
-        <span>
-          <target id="t51"/>
-          <target id="t52"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--odore-->
-        <span>
-          <target id="t54"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ristagnante-->
-        <span>
-          <target id="t55"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--van gogh museum-->
-        <span>
-          <target id="t21"/>
-          <target id="t22"/>
-          <target id="t23"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a 3 minuti dal-->
-        <span>
-          <target id="t17"/>
-          <target id="t18"/>
-          <target id="t19"/>
-          <target id="t20"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Cleanliness">
@@ -1182,4 +1096,95 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--albergo-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--posizione comoda-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cantina-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--con la muffa-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--muffa-->
+        <span>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sulla moquette-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--odore-->
+        <span>
+          <target id="t54"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ristagnante-->
+        <span>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--van gogh museum-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a 3 minuti dal-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

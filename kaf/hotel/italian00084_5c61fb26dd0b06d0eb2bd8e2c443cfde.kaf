@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:23" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1162,142 +1162,6 @@
       <edge id="tre179" from="ter60" to="nter119"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro di Lucca-->
-        <span>
-          <target id="t12"/>
-          <target id="t13"/>
-          <target id="t14"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--buona posizione-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camera-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--dimensioni modeste-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camera-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--vecchia-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personale-->
-        <span>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--disponibile-->
-        <span>
-          <target id="t17"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Colazione-->
-        <span>
-          <target id="t19"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--nella media-->
-        <span>
-          <target id="t20"/>
-          <target id="t21"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ambiente-->
-        <span>
-          <target id="t52"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--senza troppe pretese-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--prezzo-->
-        <span>
-          <target id="t59"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Buono-->
-        <span>
-          <target id="t57"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--Senza infamia-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--nè lode-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Value-for-money">
@@ -1337,4 +1201,149 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro di Lucca-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--buona posizione-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camera-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--dimensioni modeste-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camera-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--vecchia-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personale-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--disponibile-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Colazione-->
+        <span>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--nella media-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ambiente-->
+        <span>
+          <target id="t52"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--senza troppe pretese-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prezzo-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Buono-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Senza infamia-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--nè lode-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

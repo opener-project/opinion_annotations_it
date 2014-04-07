@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:20" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:58CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:58CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2780,187 +2780,6 @@
       <edge id="tre429" from="ter147" to="nter282"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="25_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagno-->
-        <span>
-          <target id="t89"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--piccolo-->
-        <span>
-          <target id="t88"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Montmartre-->
-        <span>
-          <target id="t53"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a due passi-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-          <target id="t48"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Moulin Rouge-->
-        <span>
-          <target id="t50"/>
-          <target id="t51"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a due passi-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-          <target id="t48"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camera-->
-        <span>
-          <target id="t82"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto pulita-->
-        <span>
-          <target id="t84"/>
-          <target id="t85"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--metro Place de Clichy-->
-        <span>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a 200 metri-->
-        <span>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--letto-->
-        <span>
-          <target id="t96"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimo-->
-        <span>
-          <target id="t95"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="37_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t103"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--No-->
-        <span>
-          <target id="t102"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--doccia-->
-        <span>
-          <target id="t91"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--con-->
-        <span>
-          <target id="t90"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="41_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--portiere di notte-->
-        <span>
-          <target id="t126"/>
-          <target id="t127"/>
-          <target id="t128"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Gentilissimo-->
-        <span>
-          <target id="t125"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Signor Filippe-->
-        <span>
-          <target id="t15"/>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gentilezza-->
-        <span>
-          <target id="t13"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ascensore-->
-        <span>
-          <target id="t45"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--senza-->
-        <span>
-          <target id="t44"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -3042,4 +2861,196 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagno-->
+        <span>
+          <target id="t89"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--piccolo-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Montmartre-->
+        <span>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a due passi-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Moulin Rouge-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a due passi-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camera-->
+        <span>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto pulita-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--metro Place de Clichy-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a 200 metri-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=33-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--letto-->
+        <span>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=37-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--No-->
+        <span>
+          <target id="t102"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--doccia-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--con-->
+        <span>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=41-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--portiere di notte-->
+        <span>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Gentilissimo-->
+        <span>
+          <target id="t125"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Signor Filippe-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gentilezza-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ascensore-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--senza-->
+        <span>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

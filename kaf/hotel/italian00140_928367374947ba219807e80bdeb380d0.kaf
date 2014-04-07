@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:44:48" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:32CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:32CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2659,105 +2659,6 @@
       <edge id="tre419" from="ter145" to="nter274"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--dubai-->
-        <span>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--un pò lontana-->
-        <span>
-          <target id="t12"/>
-          <target id="t13"/>
-          <target id="t14"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="11_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--dubai-->
-        <span>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--tranquilla-->
-        <span>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--Comodo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--tranquillo-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio-->
-        <span>
-          <target id="t21"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--buono-->
-        <span>
-          <target id="t23"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t25"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--pulite-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--struttura-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottima-->
-        <span>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2778,4 +2679,110 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--dubai-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--un pò lontana-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--dubai-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--tranquilla-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Comodo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--tranquillo-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio-->
+        <span>
+          <target id="t21"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--buono-->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--pulite-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--struttura-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottima-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

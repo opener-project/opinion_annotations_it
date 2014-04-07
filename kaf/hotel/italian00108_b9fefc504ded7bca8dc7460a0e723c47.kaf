@@ -19,10 +19,10 @@
       <lp name="corefgraph-it" timestamp="2014-01-14T17:23:29" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1288,8 +1288,27 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t50"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t53"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="9_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
       <opinion_holder/>
       <opinion_target>
         <!--cucina-->
@@ -1304,7 +1323,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--accoglienza ricevuta presso questa struttura da tutti-->
@@ -1327,7 +1347,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target>
         <!--colazione internazionale-->
@@ -1344,22 +1365,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t50"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t53"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

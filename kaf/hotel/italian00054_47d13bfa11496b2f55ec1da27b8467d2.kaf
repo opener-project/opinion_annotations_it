@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:38" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2667,207 +2667,6 @@
       <edge id="tre415" from="ter144" to="nter271"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--centro storico-->
-        <span>
-          <target id="t15"/>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--appena fuori-->
-        <span>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piazza La Lizza-->
-        <span>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--guarda a-->
-        <span>
-          <target id="t72"/>
-          <target id="t73"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--parcheggi-->
-        <span>
-          <target id="t31"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuiti-->
-        <span>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--palazzo-->
-        <span>
-          <target id="t60"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--bel-->
-        <span>
-          <target id="t59"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--palazzo-->
-        <span>
-          <target id="t60"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--di inizio '900-->
-        <span>
-          <target id="t61"/>
-          <target id="t62"/>
-          <target id="t63"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="37_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--attese-->
-        <span>
-          <target id="t140"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--si fanno seccanti-->
-        <span>
-          <target id="t141"/>
-          <target id="t142"/>
-          <target id="t143"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--due ascensori-->
-        <span>
-          <target id="t117"/>
-          <target id="t118"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--a stento a " smistare " i clienti-->
-        <span>
-          <target id="t127"/>
-          <target id="t128"/>
-          <target id="t129"/>
-          <target id="t130"/>
-          <target id="t131"/>
-          <target id="t132"/>
-          <target id="t133"/>
-          <target id="t134"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="34_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Wifi-->
-        <span>
-          <target id="t109"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuito-->
-        <span>
-          <target id="t114"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="34_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Wifi-->
-        <span>
-          <target id="t109"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--quando funziona-->
-        <span>
-          <target id="t111"/>
-          <target id="t112"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Buon-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vista stadio-->
-        <span>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--solido-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2910,4 +2709,217 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--centro storico-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--appena fuori-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--piazza La Lizza-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--guarda a-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--parcheggi-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuiti-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--palazzo-->
+        <span>
+          <target id="t60"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bel-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--palazzo-->
+        <span>
+          <target id="t60"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--di inizio '900-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=37-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--attese-->
+        <span>
+          <target id="t140"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--si fanno seccanti-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--due ascensori-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--a stento a " smistare " i clienti-->
+        <span>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=34-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Wifi-->
+        <span>
+          <target id="t109"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuito-->
+        <span>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=34-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Wifi-->
+        <span>
+          <target id="t109"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--quando funziona-->
+        <span>
+          <target id="t111"/>
+          <target id="t112"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Buon-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vista stadio-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--solido-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

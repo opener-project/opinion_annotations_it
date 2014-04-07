@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:38" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1705,112 +1705,6 @@
       <edge id="tre263" from="ter91" to="nter172"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--silenziosa-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vista mozzafiato-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--bene arredata-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_3">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--completamente accessoriata-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t33"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--cooperativo-->
-        <span>
-          <target id="t38"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t33"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--incredibilmente gentile-->
-        <span>
-          <target id="t35"/>
-          <target id="t36"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongPositive">
-        <!--Impressionante-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Noisiness">
@@ -1836,4 +1730,117 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--silenziosa-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vista mozzafiato-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bene arredata-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--completamente accessoriata-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--cooperativo-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--incredibilmente gentile-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Impressionante-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:57" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:06CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:06CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -931,106 +931,6 @@
       <edge id="tre142" from="ter49" to="nter93"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t12"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto cortese-->
-        <span>
-          <target id="t14"/>
-          <target id="t15"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="9_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t12"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--accogliente-->
-        <span>
-          <target id="t17"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ristoranti-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vi sono-->
-        <span>
-          <target id="t40"/>
-          <target id="t41"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ristoranti-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ottimo rapporto qualità prezzo-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-          <target id="t48"/>
-          <target id="t49"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto efficiente-->
-        <span>
-          <target id="t8"/>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Spa-->
-        <span>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ha una bella-->
-        <span>
-          <target id="t21"/>
-          <target id="t22"/>
-          <target id="t23"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Restaurant">
@@ -1058,4 +958,110 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto cortese-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--accogliente-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ristoranti-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vi sono-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ristoranti-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ottimo rapporto qualità prezzo-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto efficiente-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Spa-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ha una bella-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

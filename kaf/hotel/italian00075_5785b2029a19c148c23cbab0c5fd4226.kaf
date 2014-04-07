@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:09" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1398,8 +1398,27 @@
       <edge id="tre218" from="ter73" to="nter145"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t26"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t64"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="19_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
       <opinion_holder/>
       <opinion_target>
         <!--colazione-->
@@ -1414,7 +1433,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="19_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=19-->
       <opinion_holder/>
       <opinion_target>
         <!--colazione-->
@@ -1432,7 +1452,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="10_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
         <!--servizio-->
@@ -1455,7 +1476,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongNegative">
@@ -1466,7 +1488,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
         <!--tariffa-->
@@ -1481,7 +1504,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--albergo-->
@@ -1504,22 +1528,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t26"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t64"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:06" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -789,8 +789,22 @@
       <edge id="tre108" from="ter43" to="nter65"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t12"/>
+            <target id="t13"/>
+            <target id="t14"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--attraversamento dell' area casinò-->
@@ -808,7 +822,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--albergo-->
@@ -826,17 +841,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t12"/>
-            <target id="t13"/>
-            <target id="t14"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

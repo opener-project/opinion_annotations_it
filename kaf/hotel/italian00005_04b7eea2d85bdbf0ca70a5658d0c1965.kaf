@@ -19,10 +19,10 @@
       <lp name="corefgraph-it" timestamp="2014-01-14T17:19:26" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1528,135 +1528,6 @@
       </span>
     </coref>
   </coreferences>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--albergo-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--è centralissimo-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="25_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanze disponibili-->
-        <span>
-          <target id="t74"/>
-          <target id="t75"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non avevano-->
-        <span>
-          <target id="t72"/>
-          <target id="t73"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posizione-->
-        <span>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--comodissima per visitare la città-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t51"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Buona-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--receptionist-->
-        <span>
-          <target id="t64"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--abbastanza maleducata-->
-        <span>
-          <target id="t67"/>
-          <target id="t68"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Stanza-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--caldo soffocante-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t22"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--almeno 28 gradi-->
-        <span>
-          <target id="t25"/>
-          <target id="t26"/>
-          <target id="t27"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Notte insonne-->
-        <span>
-          <target id="t29"/>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Restaurant">
@@ -1675,4 +1546,141 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--albergo-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--è centralissimo-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=25-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanze disponibili-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non avevano-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posizione-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--comodissima per visitare la città-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t51"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Buona-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--receptionist-->
+        <span>
+          <target id="t64"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--abbastanza maleducata-->
+        <span>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Stanza-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--caldo soffocante-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--almeno 28 gradi-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Notte insonne-->
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

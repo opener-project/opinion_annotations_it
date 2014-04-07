@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:41:40" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:58CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:58CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -848,171 +848,6 @@
       <edge id="tre128" from="ter43" to="nter85"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camere-->
-        <span>
-          <target id="t6"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ben arredata-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camere-->
-        <span>
-          <target id="t6"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ampie-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--un po trascurato-->
-        <span>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--gestione-->
-        <span>
-          <target id="t17"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non all' altezza del prezzo-->
-        <span>
-          <target id="t20"/>
-          <target id="t21"/>
-          <target id="t22"/>
-          <target id="t23"/>
-          <target id="t24"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personale-->
-        <span>
-          <target id="t12"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--media qualità-->
-        <span>
-          <target id="t14"/>
-          <target id="t15"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="30_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posizione-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Ottima-->
-        <span>
-          <target id="t31"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piazza più bella di-->
-        <span>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicino ai-->
-        <span>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--mezzi-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicino ai-->
-        <span>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posizione-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Bella-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--trascurato-->
-        <span>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -1066,4 +901,179 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camere-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ben arredata-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camere-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ampie-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--un po trascurato-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--gestione-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non all' altezza del prezzo-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personale-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--media qualità-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=30-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posizione-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Ottima-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--piazza più bella di-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicino ai-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mezzi-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicino ai-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posizione-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Bella-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--trascurato-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

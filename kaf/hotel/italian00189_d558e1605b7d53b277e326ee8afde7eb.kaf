@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:02" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:09CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1180,8 +1180,20 @@
       <edge id="tre186" from="ter63" to="nter123"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t32"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="9_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
       <opinion_holder/>
       <opinion_target>
         <!--cucina-->
@@ -1196,7 +1208,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="2_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongNegative">
@@ -1207,7 +1220,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--i servizi-->
@@ -1225,15 +1239,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t32"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

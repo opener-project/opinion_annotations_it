@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:55" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:04CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2575,8 +2575,20 @@
       <edge id="tre408" from="ter139" to="nter269"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Staff">
+        <references>
+          <span>
+            <target id="t54"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="11_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
       <opinion_target>
         <!--animatori-->
@@ -2594,7 +2606,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="13_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Positive">
@@ -2604,7 +2617,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
         <!--campeggio-->
@@ -2619,7 +2633,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
         <!--campeggio-->
@@ -2635,7 +2650,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--posizione-->
@@ -2652,15 +2668,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t54"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

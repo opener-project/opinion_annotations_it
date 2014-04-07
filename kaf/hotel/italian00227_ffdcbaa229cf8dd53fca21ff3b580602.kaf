@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:47:00" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -941,8 +941,20 @@
       <edge id="tre140" from="ter51" to="nter89"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t40"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
         <!--ristoranti-->
@@ -959,15 +971,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t40"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

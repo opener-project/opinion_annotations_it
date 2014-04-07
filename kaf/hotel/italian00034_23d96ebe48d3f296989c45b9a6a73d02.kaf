@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:07" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1984,8 +1984,27 @@
       <edge id="tre305" from="ter105" to="nter200"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t88"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t101"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--questo Hotel-->
@@ -2002,7 +2021,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="17_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
       <opinion_holder/>
       <opinion_target>
         <!--selezione di yogurth-->
@@ -2021,7 +2041,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="13_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
       <opinion_holder/>
       <opinion_target>
         <!--cappuccino-->
@@ -2042,7 +2063,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--tutto-->
@@ -2059,7 +2081,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--stanze-->
@@ -2077,22 +2100,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t88"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t101"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

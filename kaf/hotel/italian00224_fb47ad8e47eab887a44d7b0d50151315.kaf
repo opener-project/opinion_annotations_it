@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:55" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:22CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:22CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2152,137 +2152,6 @@
       <edge id="tre340" from="ter114" to="nter226"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--struttura-->
-        <span>
-          <target id="t54"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--rimodernata-->
-        <span>
-          <target id="t57"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="23_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazioni-->
-        <span>
-          <target id="t97"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottime-->
-        <span>
-          <target id="t98"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="23_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Mangiare-->
-        <span>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottime-->
-        <span>
-          <target id="t98"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--paesino-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--a pochi passi-->
-        <span>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t100"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--molto gentile-->
-        <span>
-          <target id="t101"/>
-          <target id="t102"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t100"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--disponibile-->
-        <span>
-          <target id="t104"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--vista-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--eccezionale-->
-        <span>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--sulla spiaggia del paesino di Campese-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-          <target id="t14"/>
-          <target id="t15"/>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--si trova-->
-        <span>
-          <target id="t8"/>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -2332,4 +2201,143 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--struttura-->
+        <span>
+          <target id="t54"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--rimodernata-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazioni-->
+        <span>
+          <target id="t97"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottime-->
+        <span>
+          <target id="t98"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Mangiare-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottime-->
+        <span>
+          <target id="t98"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--paesino-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--a pochi passi-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--molto gentile-->
+        <span>
+          <target id="t101"/>
+          <target id="t102"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--disponibile-->
+        <span>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--vista-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--eccezionale-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--sulla spiaggia del paesino di Campese-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--si trova-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

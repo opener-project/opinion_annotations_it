@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:00" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:06CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:06CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2324,164 +2324,6 @@
       <edge id="tre369" from="ter125" to="nter244"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Cambio asciugamani-->
-        <span>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--giornaliero-->
-        <span>
-          <target id="t46"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagno-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--box doccia-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camere-->
-        <span>
-          <target id="t25"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--rivestite di parquet-->
-        <span>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camere-->
-        <span>
-          <target id="t25"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--sempre pulite-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="39_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Servizio wi · fi-->
-        <span>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-          <target id="t94"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuito-->
-        <span>
-          <target id="t95"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--buffet per colazione-->
-        <span>
-          <target id="t66"/>
-          <target id="t67"/>
-          <target id="t68"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--buon-->
-        <span>
-          <target id="t65"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="36_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--cena-->
-        <span>
-          <target id="t71"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--menù a scelta-->
-        <span>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--Esperienza positiva-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongPositive">
-        <!--da ritornare sicuramente-->
-        <span>
-          <target id="t4"/>
-          <target id="t5"/>
-          <target id="t6"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hotel-->
-        <span>
-          <target id="t9"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--recente ristrutturazione-->
-        <span>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Interior/exterior">
@@ -2580,4 +2422,172 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Cambio asciugamani-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--giornaliero-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagno-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--box doccia-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camere-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--rivestite di parquet-->
+        <span>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camere-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--sempre pulite-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=39-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Servizio wi · fi-->
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuito-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--buffet per colazione-->
+        <span>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--buon-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=36-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cena-->
+        <span>
+          <target id="t71"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--menù a scelta-->
+        <span>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Esperienza positiva-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--da ritornare sicuramente-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hotel-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--recente ristrutturazione-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

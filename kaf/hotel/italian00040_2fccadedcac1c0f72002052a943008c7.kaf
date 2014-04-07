@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:17" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1040,70 +1040,6 @@
       <edge id="tre151" from="ter56" to="nter95"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--arredamento-->
-        <span>
-          <target id="t53"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--molto scarno-->
-        <span>
-          <target id="t55"/>
-          <target id="t56"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--scarsa-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stazione ferroviaria-->
-        <span>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicinanza-->
-        <span>
-          <target id="t15"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--struttura-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--centralissima-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Breakfast">
@@ -1123,4 +1059,72 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--arredamento-->
+        <span>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--molto scarno-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--scarsa-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stazione ferroviaria-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicinanza-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--struttura-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--centralissima-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

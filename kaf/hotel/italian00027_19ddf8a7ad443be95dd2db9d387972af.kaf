@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:41:55" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:26CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:02CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1472,149 +1472,6 @@
       <edge id="tre228" from="ter79" to="nter149"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t17"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--per niente disponibile-->
-        <span>
-          <target id="t18"/>
-          <target id="t19"/>
-          <target id="t20"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--rumori-->
-        <span>
-          <target id="t53"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--molesti-->
-        <span>
-          <target id="t54"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--molti giovani-->
-        <span>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--molto divertenti-->
-        <span>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--molti giovani-->
-        <span>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--talvolta irrispettosi della quiete altrui-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--pulizia dei bagni-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-          <target id="t67"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non è sempre garantita-->
-        <span>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--docce in comune-->
-        <span>
-          <target id="t71"/>
-          <target id="t72"/>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non è sempre garantita-->
-        <span>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posizione-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Ottimo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ambiente-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--molto poco accogliente-->
-        <span>
-          <target id="t12"/>
-          <target id="t13"/>
-          <target id="t14"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -1670,4 +1527,155 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--per niente disponibile-->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--rumori-->
+        <span>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--molesti-->
+        <span>
+          <target id="t54"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--molti giovani-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--molto divertenti-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--molti giovani-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--talvolta irrispettosi della quiete altrui-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--pulizia dei bagni-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non è sempre garantita-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--docce in comune-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non è sempre garantita-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posizione-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Ottimo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ambiente-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--molto poco accogliente-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:44:40" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:07CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:07CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1610,150 +1610,6 @@
       <edge id="tre249" from="ter85" to="nter164"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--frigo in camera-->
-        <span>
-          <target id="t64"/>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Nessuna possibilità di avere-->
-        <span>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--cena-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non è delle migliori-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--non puoi scegliere niente-->
-        <span>
-          <target id="t42"/>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--internet-->
-        <span>
-          <target id="t79"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--pagare-->
-        <span>
-          <target id="t70"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--televisione-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--pagare-->
-        <span>
-          <target id="t70"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--chi ha problemi alimentari-->
-        <span>
-          <target id="t48"/>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--lo stesso piatto degli altri-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--Lo sconsiglio a chiunque-->
-        <span>
-          <target id="t81"/>
-          <target id="t82"/>
-          <target id="t83"/>
-          <target id="t84"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--sconsigliato-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--letto-->
-        <span>
-          <target id="t23"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--era rotto-->
-        <span>
-          <target id="t24"/>
-          <target id="t25"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Facilities">
@@ -1814,4 +1670,157 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--frigo in camera-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Nessuna possibilità di avere-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cena-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non è delle migliori-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--non puoi scegliere niente-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=33-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--internet-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--pagare-->
+        <span>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=33-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--televisione-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--pagare-->
+        <span>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--chi ha problemi alimentari-->
+        <span>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--lo stesso piatto degli altri-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--Lo sconsiglio a chiunque-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--sconsigliato-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--letto-->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--era rotto-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

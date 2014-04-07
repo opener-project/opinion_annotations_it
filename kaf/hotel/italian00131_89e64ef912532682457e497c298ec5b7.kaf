@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:44:34" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:59CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:59CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2395,87 +2395,6 @@
       <edge id="tre379" from="ter130" to="nter249"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--insultato-->
-        <span>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--nostri vicini-->
-        <span>
-          <target id="t68"/>
-          <target id="t69"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--fatto un casino dalla 2 alle 4-->
-        <span>
-          <target id="t71"/>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--guardiano-->
-        <span>
-          <target id="t111"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non fa un niente tutta notte invece di far rispettare il silenzio e la buona educazione-->
-        <span>
-          <target id="t114"/>
-          <target id="t115"/>
-          <target id="t116"/>
-          <target id="t117"/>
-          <target id="t118"/>
-          <target id="t119"/>
-          <target id="t120"/>
-          <target id="t121"/>
-          <target id="t122"/>
-          <target id="t123"/>
-          <target id="t124"/>
-          <target id="t125"/>
-          <target id="t126"/>
-          <target id="t127"/>
-          <target id="t128"/>
-          <target id="t129"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale della reception-->
-        <span>
-          <target id="t14"/>
-          <target id="t15"/>
-          <target id="t16"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--scorbutico-->
-        <span>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -2515,4 +2434,89 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--insultato-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--nostri vicini-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--fatto un casino dalla 2 alle 4-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--guardiano-->
+        <span>
+          <target id="t111"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non fa un niente tutta notte invece di far rispettare il silenzio e la buona educazione-->
+        <span>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale della reception-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--scorbutico-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

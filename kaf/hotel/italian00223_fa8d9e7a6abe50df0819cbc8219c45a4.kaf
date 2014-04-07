@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:54" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1937,81 +1937,6 @@
       <edge id="tre304" from="ter104" to="nter200"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--sicurezza nell' accesso alle camere-->
-        <span>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-          <target id="t63"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--qualche dubbio sulla effettiva-->
-        <span>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camera-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--media-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--check · in-->
-        <span>
-          <target id="t47"/>
-          <target id="t48"/>
-          <target id="t49"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Code lunghissime-->
-        <span>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--check · out-->
-        <span>
-          <target id="t51"/>
-          <target id="t52"/>
-          <target id="t53"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Code lunghissime-->
-        <span>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Reservation/check-in/check-out">
@@ -2034,4 +1959,83 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--sicurezza nell' accesso alle camere-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--qualche dubbio sulla effettiva-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Camera-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--media-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--check · in-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Code lunghissime-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--check · out-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Code lunghissime-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

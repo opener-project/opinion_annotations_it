@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:14" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1309,90 +1309,6 @@
       <edge id="tre203" from="ter69" to="nter134"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagno outdoor-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--cieco-->
-        <span>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bidet-->
-        <span>
-          <target id="t50"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--senza-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camera-->
-        <span>
-          <target id="t34"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non aveva alcun particolare fascino-->
-        <span>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--prezzo-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--alternative migliori-->
-        <span>
-          <target id="t63"/>
-          <target id="t64"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--qualità-->
-        <span>
-          <target id="t66"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--alternative migliori-->
-        <span>
-          <target id="t63"/>
-          <target id="t64"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Bathroom">
@@ -1425,4 +1341,93 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagno outdoor-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--cieco-->
+        <span>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bidet-->
+        <span>
+          <target id="t50"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--senza-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camera-->
+        <span>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non aveva alcun particolare fascino-->
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prezzo-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--alternative migliori-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--qualità-->
+        <span>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--alternative migliori-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

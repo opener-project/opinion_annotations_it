@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:42:56" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:23CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:57CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2161,125 +2161,6 @@
       <edge id="tre334" from="ter117" to="nter217"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="19_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--comfort adeguati-->
-        <span>
-          <target id="t80"/>
-          <target id="t81"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--pulite-->
-        <span>
-          <target id="t76"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t74"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--un po ' antiquate-->
-        <span>
-          <target id="t85"/>
-          <target id="t86"/>
-          <target id="t87"/>
-          <target id="t88"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--zona-->
-        <span>
-          <target id="t46"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--strategica per diversi punti d' interesse-->
-        <span>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--trattamento-->
-        <span>
-          <target id="t61"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--molto buono-->
-        <span>
-          <target id="t63"/>
-          <target id="t64"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="23_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ricca-->
-        <span>
-          <target id="t96"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="23_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--eccezionale nella qualità-->
-        <span>
-          <target id="t98"/>
-          <target id="t99"/>
-          <target id="t100"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Cleanliness">
@@ -2319,4 +2200,130 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--comfort adeguati-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--pulite-->
+        <span>
+          <target id="t76"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--un po ' antiquate-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--zona-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--strategica per diversi punti d' interesse-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--trattamento-->
+        <span>
+          <target id="t61"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--molto buono-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ricca-->
+        <span>
+          <target id="t96"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--eccezionale nella qualità-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

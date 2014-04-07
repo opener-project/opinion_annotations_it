@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:40" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:25CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:01CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2650,159 +2650,6 @@
       <edge id="tre418" from="ter142" to="nter276"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbastanza dignitosa-->
-        <span>
-          <target id="t112"/>
-          <target id="t113"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--tutto-->
-        <span>
-          <target id="t65"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--un po ’ lontano-->
-        <span>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-          <target id="t63"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t88"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non è particolarmente bella ma neanche tra le peggiori-->
-        <span>
-          <target id="t89"/>
-          <target id="t90"/>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-          <target id="t94"/>
-          <target id="t95"/>
-          <target id="t96"/>
-          <target id="t97"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="30_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagni-->
-        <span>
-          <target id="t115"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbastanza spaziosi-->
-        <span>
-          <target id="t116"/>
-          <target id="t117"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="30_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagni-->
-        <span>
-          <target id="t115"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--puliti-->
-        <span>
-          <target id="t119"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--frigobar-->
-        <span>
-          <target id="t126"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sigillato , per cui non si può utilizzare per mettere in fresco bevande proprie-->
-        <span>
-          <target id="t128"/>
-          <target id="t129"/>
-          <target id="t130"/>
-          <target id="t131"/>
-          <target id="t132"/>
-          <target id="t133"/>
-          <target id="t134"/>
-          <target id="t135"/>
-          <target id="t136"/>
-          <target id="t137"/>
-          <target id="t138"/>
-          <target id="t139"/>
-          <target id="t140"/>
-          <target id="t141"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Corniche-->
-        <span>
-          <target id="t14"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbastanza vicino-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--linee di autobus-->
-        <span>
-          <target id="t29"/>
-          <target id="t30"/>
-          <target id="t31"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--A due passi-->
-        <span>
-          <target id="t23"/>
-          <target id="t24"/>
-          <target id="t25"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Location">
@@ -2878,4 +2725,165 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbastanza dignitosa-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--tutto-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--un po ’ lontano-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non è particolarmente bella ma neanche tra le peggiori-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=30-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagni-->
+        <span>
+          <target id="t115"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbastanza spaziosi-->
+        <span>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=30-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagni-->
+        <span>
+          <target id="t115"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--puliti-->
+        <span>
+          <target id="t119"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--frigobar-->
+        <span>
+          <target id="t126"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sigillato , per cui non si può utilizzare per mettere in fresco bevande proprie-->
+        <span>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Corniche-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbastanza vicino-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--linee di autobus-->
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--A due passi-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

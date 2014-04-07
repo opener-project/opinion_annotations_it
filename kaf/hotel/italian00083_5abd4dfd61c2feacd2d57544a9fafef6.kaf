@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:43:22" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:03CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2635,184 +2635,6 @@
       <edge id="tre415" from="ter141" to="nter274"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--corridoi-->
-        <span>
-          <target id="t85"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--dovrebbero essere sorvegliati-->
-        <span>
-          <target id="t88"/>
-          <target id="t89"/>
-          <target id="t90"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="38_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--asciugamani-->
-        <span>
-          <target id="t138"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Mancanza di-->
-        <span>
-          <target id="t136"/>
-          <target id="t137"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--band di ragazzi-->
-        <span>
-          <target id="t15"/>
-          <target id="t16"/>
-          <target id="t17"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--invadono l' hotel-->
-        <span>
-          <target id="t19"/>
-          <target id="t20"/>
-          <target id="t21"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Bottiglie di alcool ovunque-->
-        <span>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--puzza di marijuana-->
-        <span>
-          <target id="t80"/>
-          <target id="t81"/>
-          <target id="t82"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--comodini-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--stampo della tazza da caffè-->
-        <span>
-          <target id="t119"/>
-          <target id="t120"/>
-          <target id="t121"/>
-          <target id="t122"/>
-          <target id="t123"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--divano-->
-        <span>
-          <target id="t126"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--impataccato-->
-        <span>
-          <target id="t128"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--divano-->
-        <span>
-          <target id="t126"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--aloni-->
-        <span>
-          <target id="t131"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Sporco-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--rumoroso-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--impossibile dormire-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--moquette-->
-        <span>
-          <target id="t95"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non è mai stata aspirata-->
-        <span>
-          <target id="t103"/>
-          <target id="t104"/>
-          <target id="t105"/>
-          <target id="t106"/>
-          <target id="t107"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -2894,4 +2716,194 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--corridoi-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--dovrebbero essere sorvegliati-->
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=38-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--asciugamani-->
+        <span>
+          <target id="t138"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Mancanza di-->
+        <span>
+          <target id="t136"/>
+          <target id="t137"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--band di ragazzi-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--invadono l' hotel-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Bottiglie di alcool ovunque-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--puzza di marijuana-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--comodini-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--stampo della tazza da caffè-->
+        <span>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--divano-->
+        <span>
+          <target id="t126"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--impataccato-->
+        <span>
+          <target id="t128"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--divano-->
+        <span>
+          <target id="t126"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--aloni-->
+        <span>
+          <target id="t131"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Sporco-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--rumoroso-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--impossibile dormire-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--moquette-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non è mai stata aspirata-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:22" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:07CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:28CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:07CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3146,298 +3146,6 @@
       <edge id="tre491" from="ter168" to="nter323"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stile-->
-        <span>
-          <target id="t56"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--non lussuoso , ma elegante e raffinato-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-          <target id="t67"/>
-          <target id="t68"/>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t71"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posizione-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--perfetta-->
-        <span>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--cattedrale di St.Stefano-->
-        <span>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicino alla-->
-        <span>
-          <target id="t25"/>
-          <target id="t26"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--posto-->
-        <span>
-          <target id="t45"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--tranquillissimo-->
-        <span>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="46_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t136"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--professionale-->
-        <span>
-          <target id="t138"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="46_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t136"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--molto gentile e disponibile-->
-        <span>
-          <target id="t141"/>
-          <target id="t142"/>
-          <target id="t143"/>
-          <target id="t144"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stazione della metropolitana-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--un centinaio di metri-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--nostra-->
-        <span>
-          <target id="t91"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ben arredata-->
-        <span>
-          <target id="t95"/>
-          <target id="t96"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--nostra-->
-        <span>
-          <target id="t91"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--con anche un piccolo salottino-->
-        <span>
-          <target id="t98"/>
-          <target id="t99"/>
-          <target id="t100"/>
-          <target id="t101"/>
-          <target id="t102"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--nostra-->
-        <span>
-          <target id="t91"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ampia-->
-        <span>
-          <target id="t93"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="50_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Rapporto prezzo / qualità-->
-        <span>
-          <target id="t163"/>
-          <target id="t164"/>
-          <target id="t165"/>
-          <target id="t166"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ottimo-->
-        <span>
-          <target id="t167"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Pulizia ed igiene-->
-        <span>
-          <target id="t114"/>
-          <target id="t115"/>
-          <target id="t116"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--senza pecca-->
-        <span>
-          <target id="t117"/>
-          <target id="t118"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--centrale-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongPositive">
-        <!--Ottimo-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t121"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--molto varia-->
-        <span>
-          <target id="t125"/>
-          <target id="t126"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t121"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ricca , anche di specialità locali-->
-        <span>
-          <target id="t128"/>
-          <target id="t129"/>
-          <target id="t130"/>
-          <target id="t131"/>
-          <target id="t132"/>
-          <target id="t133"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="40_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--colazione-->
-        <span>
-          <target id="t121"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--abbondante-->
-        <span>
-          <target id="t123"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--pieno centro-->
-        <span>
-          <target id="t19"/>
-          <target id="t20"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Interior/exterior">
@@ -3515,4 +3223,314 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stile-->
+        <span>
+          <target id="t56"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--non lussuoso , ma elegante e raffinato-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posizione-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--perfetta-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cattedrale di St.Stefano-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicino alla-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--posto-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--tranquillissimo-->
+        <span>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=46-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t136"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--professionale-->
+        <span>
+          <target id="t138"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=46-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t136"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--molto gentile e disponibile-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stazione della metropolitana-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--un centinaio di metri-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--nostra-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ben arredata-->
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--nostra-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--con anche un piccolo salottino-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--nostra-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ampia-->
+        <span>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=50-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Rapporto prezzo / qualità-->
+        <span>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Pulizia ed igiene-->
+        <span>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--senza pecca-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--centrale-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Ottimo-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t121"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--molto varia-->
+        <span>
+          <target id="t125"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t121"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ricca , anche di specialità locali-->
+        <span>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=40-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--colazione-->
+        <span>
+          <target id="t121"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--abbondante-->
+        <span>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--pieno centro-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

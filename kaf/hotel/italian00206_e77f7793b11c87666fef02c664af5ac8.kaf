@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:28" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:30CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:10CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2048,116 +2048,6 @@
       <edge id="tre319" from="ter110" to="nter209"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t86"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--pulite-->
-        <span>
-          <target id="t88"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="24_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camere-->
-        <span>
-          <target id="t86"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--silenziose-->
-        <span>
-          <target id="t90"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--fermata Bastille linea 1-->
-        <span>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--3 minuti a piedi-->
-        <span>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Ceck · in-->
-        <span>
-          <target id="t103"/>
-          <target id="t104"/>
-          <target id="t105"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--in 2 minuti-->
-        <span>
-          <target id="t107"/>
-          <target id="t108"/>
-          <target id="t109"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piccolo spazio cucina-->
-        <span>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--la possibilità di usare-->
-        <span>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piccolo spazio cucina-->
-        <span>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--un frigorifero-->
-        <span>
-          <target id="t82"/>
-          <target id="t83"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Reservation/check-in/check-out">
@@ -2226,4 +2116,120 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t86"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--pulite-->
+        <span>
+          <target id="t88"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camere-->
+        <span>
+          <target id="t86"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--silenziose-->
+        <span>
+          <target id="t90"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--fermata Bastille linea 1-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--3 minuti a piedi-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ceck · in-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--in 2 minuti-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--piccolo spazio cucina-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--la possibilità di usare-->
+        <span>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--piccolo spazio cucina-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--un frigorifero-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

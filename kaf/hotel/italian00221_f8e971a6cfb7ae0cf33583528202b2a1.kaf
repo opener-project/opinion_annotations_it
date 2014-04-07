@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:46:50" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:34:59CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:24CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:34:59CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3120,86 +3120,6 @@
       <edge id="tre480" from="ter167" to="nter313"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t103"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--accogliente-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t103"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--gentilissimo-->
-        <span>
-          <target id="t105"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t103"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--sempre disponibile-->
-        <span>
-          <target id="t107"/>
-          <target id="t108"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--panorama-->
-        <span>
-          <target id="t49"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--indescrivibile-->
-        <span>
-          <target id="t51"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder>
-        <!--Io-->
-        <span>
-          <target id="t151"/>
-        </span>
-      </opinion_holder>
-      <opinion_target/>
-      <opinion_expression polarity="StrongPositive">
-        <!--lo consiglio fortemente-->
-        <span>
-          <target id="t152"/>
-          <target id="t153"/>
-          <target id="t154"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Interior/exterior">
@@ -3218,4 +3138,89 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--accogliente-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--gentilissimo-->
+        <span>
+          <target id="t105"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--sempre disponibile-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--panorama-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--indescrivibile-->
+        <span>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder>
+        <!--Io-->
+        <span>
+          <target id="t151"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--lo consiglio fortemente-->
+        <span>
+          <target id="t152"/>
+          <target id="t153"/>
+          <target id="t154"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

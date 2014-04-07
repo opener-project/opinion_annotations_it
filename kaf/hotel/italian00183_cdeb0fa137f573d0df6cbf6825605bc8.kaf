@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:53" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:29CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2192,97 +2192,6 @@
       <edge id="tre340" from="ter117" to="nter223"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--stanza-->
-        <span>
-          <target id="t90"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vero e proprio appartamento-->
-        <span>
-          <target id="t96"/>
-          <target id="t97"/>
-          <target id="t98"/>
-          <target id="t99"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--La vista-->
-        <span>
-          <target id="t5"/>
-          <target id="t6"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--davvero spettacolare-->
-        <span>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--zona reception / hall-->
-        <span>
-          <target id="t103"/>
-          <target id="t104"/>
-          <target id="t105"/>
-          <target id="t106"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non sembra all' altezza-->
-        <span>
-          <target id="t107"/>
-          <target id="t108"/>
-          <target id="t109"/>
-          <target id="t110"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Wi Fi-->
-        <span>
-          <target id="t112"/>
-          <target id="t113"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gratuito-->
-        <span>
-          <target id="t114"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--vari centri commerciali-->
-        <span>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--vicinanza-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -2309,4 +2218,100 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--stanza-->
+        <span>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vero e proprio appartamento-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--La vista-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--davvero spettacolare-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--zona reception / hall-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non sembra all' altezza-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Wi Fi-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gratuito-->
+        <span>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--vari centri commerciali-->
+        <span>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--vicinanza-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

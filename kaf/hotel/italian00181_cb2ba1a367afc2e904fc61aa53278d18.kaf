@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:50" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:27CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:05CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2119,176 +2119,6 @@
       <edge id="tre330" from="ter114" to="nter216"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Spa-->
-        <span>
-          <target id="t82"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--triste-->
-        <span>
-          <target id="t83"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Spa-->
-        <span>
-          <target id="t82"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--senza musica-->
-        <span>
-          <target id="t84"/>
-          <target id="t85"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--bagno-->
-        <span>
-          <target id="t19"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--bel-->
-        <span>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--rumoroso-->
-        <span>
-          <target id="t68"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--inadeguato per una spa-->
-        <span>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--frutta fresca-->
-        <span>
-          <target id="t102"/>
-          <target id="t103"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--privo delle-->
-        <span>
-          <target id="t93"/>
-          <target id="t94"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--varie tisane-->
-        <span>
-          <target id="t95"/>
-          <target id="t96"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--privo delle-->
-        <span>
-          <target id="t93"/>
-          <target id="t94"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--succhi di frutta-->
-        <span>
-          <target id="t98"/>
-          <target id="t99"/>
-          <target id="t100"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--privo delle-->
-        <span>
-          <target id="t93"/>
-          <target id="t94"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="34_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Giudizio Negativo-->
-        <span>
-          <target id="t112"/>
-          <target id="t113"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personale massaggi-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--incompetente-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--camera-->
-        <span>
-          <target id="t15"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--bella-->
-        <span>
-          <target id="t14"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Bathroom">
@@ -2328,4 +2158,185 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Spa-->
+        <span>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--triste-->
+        <span>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Spa-->
+        <span>
+          <target id="t82"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--senza musica-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--bagno-->
+        <span>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bel-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--rumoroso-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--inadeguato per una spa-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--frutta fresca-->
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--privo delle-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--varie tisane-->
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--privo delle-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--succhi di frutta-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--privo delle-->
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=34-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Giudizio Negativo-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personale massaggi-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--incompetente-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--camera-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bella-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

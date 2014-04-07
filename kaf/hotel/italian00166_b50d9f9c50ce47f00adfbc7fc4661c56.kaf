@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:28" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:07:31CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2684,145 +2684,6 @@
       <edge id="tre429" from="ter143" to="nter286"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--personale ai piani-->
-        <span>
-          <target id="t68"/>
-          <target id="t69"/>
-          <target id="t70"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non parla italiano-->
-        <span>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--reception-->
-        <span>
-          <target id="t58"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ritardi-->
-        <span>
-          <target id="t63"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio in camera-->
-        <span>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ritardi-->
-        <span>
-          <target id="t63"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--reception-->
-        <span>
-          <target id="t58"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--incomprensioni-->
-        <span>
-          <target id="t65"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_3">
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio in camera-->
-        <span>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--incomprensioni-->
-        <span>
-          <target id="t65"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--livello inaccettabile-->
-        <span>
-          <target id="t49"/>
-          <target id="t50"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Disponibilita ' e gentilezza del personale-->
-        <span>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-          <target id="t81"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--inesistente-->
-        <span>
-          <target id="t82"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--food and beverage-->
-        <span>
-          <target id="t84"/>
-          <target id="t85"/>
-          <target id="t86"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--al di sotto di qualsiasi standard europeo-->
-        <span>
-          <target id="t87"/>
-          <target id="t88"/>
-          <target id="t89"/>
-          <target id="t90"/>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -2850,4 +2711,151 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--personale ai piani-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--non parla italiano-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--reception-->
+        <span>
+          <target id="t58"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ritardi-->
+        <span>
+          <target id="t63"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio in camera-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ritardi-->
+        <span>
+          <target id="t63"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--reception-->
+        <span>
+          <target id="t58"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--incomprensioni-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--servizio in camera-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--incomprensioni-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--livello inaccettabile-->
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Disponibilita ' e gentilezza del personale-->
+        <span>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--inesistente-->
+        <span>
+          <target id="t82"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--food and beverage-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--al di sotto di qualsiasi standard europeo-->
+        <span>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>
