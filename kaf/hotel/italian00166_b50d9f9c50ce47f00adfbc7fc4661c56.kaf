@@ -15,10 +15,10 @@
       <lp name="ehu-parse-it" timestamp="2014-02-24 12:45:28" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:30:26CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:35:12CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:30:26CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2732,31 +2732,13 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o1">
       <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
         <!--reception-->
         <span>
           <target id="t58"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ritardi-->
-        <span>
-          <target id="t63"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o1">
-      <!--Tag opinion scope id=10-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--servizio in camera-->
-        <span>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="Negative">
@@ -2770,6 +2752,24 @@
       <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
+        <!--servizio in camera-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ritardi-->
+        <span>
+          <target id="t63"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
         <!--reception-->
         <span>
           <target id="t58"/>
@@ -2782,7 +2782,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o3">
+    <opinion oid="o4">
       <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
@@ -2800,7 +2800,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o5">
       <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
@@ -2812,7 +2812,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o6">
       <!--Tag opinion scope id=14-->
       <opinion_holder/>
       <opinion_target>
@@ -2833,7 +2833,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o7">
       <!--Tag opinion scope id=19-->
       <opinion_holder/>
       <opinion_target>
