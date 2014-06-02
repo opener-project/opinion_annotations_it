@@ -1,0 +1,11 @@
+w7	zona	zona	N		OpinionTarget	14	Opinion	15		0		0		0		0		0		0	6	true	2
+w8	turisticamente	turisticamente	A		Positive	13	Opinion	15		0		0		0		0		0		0	7	true	2
+w9	Tranquilla	tranquilla	R		Positive	13	Opinion	15		0		0		0		0		0		0	8	true	2
+w21	belle	bello	G		Positive	7	Opinion	9		0		0		0		0		0		0	20	true	2
+w22	chiese	chiesa	N		OpinionTarget	8	Opinion	9		0		0		0		0		0		0	21	true	2
+w24	bei	bei	G		Positive	10	Opinion	12		0		0		0		0		0		0	23	true	2
+w25	palazzi	palazzo	N		OpinionTarget	11	Opinion	12		0		0		0		0		0		0	24	true	2
+w27	belle	bello	G		Positive	1	Opinion	3		0		0		0		0		0		0	26	true	2
+w28	case	casa	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	27	true	2
+w30	bel	bel	G		Positive	4	Opinion	6		0		0		0		0		0		0	29	true	2
+w31	panorama	panorama	N		OpinionTarget	5	Opinion	6		0		0		0		0		0		0	30	true	2

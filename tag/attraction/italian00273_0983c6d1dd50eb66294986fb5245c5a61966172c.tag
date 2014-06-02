@@ -1,0 +1,9 @@
+w2	Molto	molto	G		StrongPositive	1	Opinion	4		0		0		0		0		0		0	1	true	2
+w3	bello	bello	N		StrongPositive	1	Opinion	4		0		0		0		0		0		0	2	true	2
+w5	divertente	divertire	V		Positive	3	Opinion	5		0		0		0		0		0		0	4	true	2
+w6	sia	essere	V		Positive	3	Opinion	5		0		0		0		0		0		0	5	true	2
+w7	in	in	P		Positive	3	Opinion	5		0		0		0		0		0		0	6	true	2
+w8	estate	estate	N		Positive	3	Opinion	5		0		0		0		0		0		0	7	true	2
+w9	che	che	Q		Positive	3	Opinion	5		0		0		0		0		0		0	8	true	2
+w10	in	in	P		Positive	3	Opinion	5		0		0		0		0		0		0	9	true	2
+w11	inverno	inverno	N		Positive	3	Opinion	5		0		0		0		0		0		0	10	true	2

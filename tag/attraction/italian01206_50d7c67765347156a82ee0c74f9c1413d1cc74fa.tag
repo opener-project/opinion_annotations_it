@@ -1,0 +1,10 @@
+w17	una	una	Q		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	16	true	2
+w18	delle	delle	P		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	17	true	2
+w19	chiese	chiesa	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	18	true	2
+w20	barocche	barocco	G		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	19	true	2
+w21	più	piu'	N		Positive	2	Opinion	3		0		0		0		0		0		0	20	true	2
+w22	belle	bello	G		Positive	2	Opinion	3		0		0		0		0		0		0	21	true	2
+w23	e	e	Q		Positive	2	Opinion	3		0		0		0		0		0		0	22	true	2
+w24	maestose	maestoso	G		Positive	2	Opinion	3		0		0		0		0		0		0	23	true	2
+w25	della	della	P		Positive	2	Opinion	3		0		0		0		0		0		0	24	true	2
+w26	città	citta'	N		Positive	2	Opinion	3		0		0		0		0		0		0	25	true	2

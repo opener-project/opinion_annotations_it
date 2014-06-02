@@ -1,0 +1,10 @@
+w18	Panorama	panorama	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	17	true	3
+w19	fantastico	fantastico	G		StrongPositive	2	Opinion	3		0		0		0		0		0		0	18	true	3
+w30	un	uno	D		Negative	4	Opinion	6		0		0		0		0		0		0	29	true	3
+w31	po'	po'	A		Negative	4	Opinion	6		0		0		0		0		0		0	30	true	3
+w32	caretto	caretto	V		Negative	4	Opinion	6		0		0		0		0		0		0	31	true	3
+w33	ma	ma	Q		Positive	5	Opinion	6		0		0		0		0		0		0	32	true	3
+w34	ne	ne	Q		Positive	5	Opinion	6		0		0		0		0		0		0	33	true	3
+w35	vale	valere	V		Positive	5	Opinion	6		0		0		0		0		0		0	34	true	3
+w36	la	lo	D		Positive	5	Opinion	6		0		0		0		0		0		0	35	true	3
+w37	pena	pena	N		Positive	5	Opinion	6		0		0		0		0		0		0	36	true	3

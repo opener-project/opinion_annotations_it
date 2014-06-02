@@ -1,0 +1,25 @@
+w25	Tantissimi	tantissimi	G		StrongPositive	1	Opinion	6		0		0		0		0		0		0	24	true	4
+w26	artisti	artista	N		OpinionTarget	2	Opinion	6		0		0		0		0		0		0	25	true	4
+w27	di	di	P		OpinionTarget	2	Opinion	6		0		0		0		0		0		0	26	true	4
+w28	strada	strada	N		OpinionTarget	2	Opinion	6		0		0		0		0		0		0	27	true	4
+w30	chioschi	chiosco	N		OpinionTarget	3	Opinion	8		0		0		0		0		0		0	29	true	4
+w31	con	con	P		Positive	7	Opinion	8		0		0		0		0		0		0	30	true	4
+w32	cibo	cibo	N		Positive	7	Opinion	8		0		0		0		0		0		0	31	true	4
+w33	per	per	P		Positive	7	Opinion	8		0		0		0		0		0		0	32	true	4
+w34	ogni	ogni	G		Positive	7	Opinion	8		0		0		0		0		0		0	33	true	4
+w35	palato	palato	N		Positive	7	Opinion	8		0		0		0		0		0		0	34	true	4
+w37	un	uno	D			0	Opinion	11		0		0		0		0		0		0	36	true	4
+w38	centro	centro	N		OpinionTarget	9	Opinion	11		0		0		0		0		0		0	37	true	4
+w39	commerciale	commerciale	G		OpinionTarget	9	Opinion	11		0		0		0		0		0		0	38	true	4
+w40	di	di	P		Positive	10	Opinion	11		0		0		0		0		0		0	39	true	4
+w41	5	5	G		Positive	10	Opinion	11		0		0		0		0		0		0	40	true	4
+w42	piani	piano	N		Positive	10	Opinion	11		0		0		0		0		0		0	41	true	4
+w43	con	con	P		Positive	10	Opinion	11		0		0		0		0		0		0	42	true	4
+w44	gastronomia	gastronomia	N		Positive	10	Opinion	11		0		0		0		0		0		0	43	true	4
+w45	al	al	P		Positive	10	Opinion	11		0		0		0		0		0		0	44	true	4
+w46	piano	piano	N		Positive	10	Opinion	11		0		0		0		0		0		0	45	true	4
+w47	terra	terra	N		Positive	10	Opinion	11		0		0		0		0		0		0	46	true	4
+w49	stazione	stazione	N		OpinionTarget	4	Opinion	12		0		0		0		0		0		0	48	true	4
+w50	metro	metro	N		OpinionTarget	4	Opinion	12		0		0		0		0		0		0	49	true	4
+w51	e	e	Q		Positive	13	Opinion	12		0		0		0		0		0		0	50	true	4
+w52	tram	tram	N		OpinionTarget	5	Opinion	12		0		0		0		0		0		0	51	true	4

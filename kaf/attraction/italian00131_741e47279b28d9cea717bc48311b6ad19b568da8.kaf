@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-02-10T12:41:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-02-10T12:41:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-10-T00:41:03Z" version="1.0"/>
+      <lp name="Basic_polarity_tagger_with_pos" timestamp="2014-02-24T15:05:37CET" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-it" timestamp="2014-02-24 15:05:37" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-it" timestamp="2014-02-24 15:05:38" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-06-02T11:10:47CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-06-02T11:10:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="9">Cattolica</wf>
+    <wf wid="w2" sent="2" para="2" offset="10" length="6">sempre</wf>
+    <wf wid="w3" sent="2" para="2" offset="17" length="12">interessante</wf>
+    <wf wid="w4" sent="2" para="2" offset="30" length="1">e</wf>
+    <wf wid="w5" sent="2" para="2" offset="32" length="10">divertente</wf>
+    <wf wid="w6" sent="2" para="2" offset="43" length="3">per</wf>
+    <wf wid="w7" sent="2" para="2" offset="47" length="1">i</wf>
+    <wf wid="w8" sent="2" para="2" offset="49" length="7">bambini</wf>
+    <wf wid="w9" sent="2" para="2" offset="57" length="1">(</wf>
+    <wf wid="w10" sent="2" para="2" offset="58" length="2">ma</wf>
+    <wf wid="w11" sent="2" para="2" offset="61" length="5">anche</wf>
+    <wf wid="w12" sent="2" para="2" offset="67" length="3">gli</wf>
+    <wf wid="w13" sent="2" para="2" offset="71" length="6">adulti</wf>
+  </text>
+  <terms>
+    <!--Cattolica-->
+    <term tid="t1" type="" lemma="cattolico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--sempre-->
+    <term tid="t2" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--interessante-->
+    <term tid="t3" type="" lemma="interessare" pos="V" morphofeat="VMA~PPNS">
+      <sentiment resource="CRN_general_lexicon_italian" polarity="neutral"/>
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t4" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--divertente-->
+    <term tid="t5" type="" lemma="divertire" pos="V" morphofeat="VMA~PPNS">
+      <sentiment resource="CRN_general_lexicon_italian" polarity="neutral"/>
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t6" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t7" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--bambini-->
+    <term tid="t8" type="" lemma="bambino" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t9" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t10" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t11" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--gli-->
+    <term tid="t12" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--adulti-->
+    <term tid="t13" type="" lemma="adulto" pos="N" morphofeat="NOU~CPMP">
+      <sentiment resource="CRN_general_lexicon_italian" polarity="positive"/>
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="person">
+      <references>
+        <!--Cattolica-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <constituency>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter1" label="TOP"/>
+      <nt id="nter2" label="NOU~PR"/>
+      <!--Terminals-->
+      <!--Cattolica-->
+      <t id="ter1">
+        <span>
+          <target id="t1"/>
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes"/>
+      <edge id="tre3" from="ter1" to="nter2"/>
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter3" label="TOP"/>
+      <nt id="nter4" label="NP"/>
+      <nt id="nter5" label="ADJP"/>
+      <nt id="nter6" label="ADVB"/>
+      <nt id="nter7" label="ADJP"/>
+      <nt id="nter8" label="ADJP"/>
+      <nt id="nter9" label="ADJ~QU"/>
+      <nt id="nter10" label="CONJ"/>
+      <nt id="nter11" label="ADJP"/>
+      <nt id="nter12" label="ADJ~QU"/>
+      <nt id="nter13" label="PP"/>
+      <nt id="nter14" label="PREP"/>
+      <nt id="nter15" label="NP"/>
+      <nt id="nter16" label="ART~DE"/>
+      <nt id="nter17" label="NOU~CP"/>
+      <nt id="nter18" label="PRN"/>
+      <nt id="nter19" label="-LRB-"/>
+      <nt id="nter20" label="CONJ"/>
+      <nt id="nter21" label="NP"/>
+      <nt id="nter22" label="ADVB"/>
+      <nt id="nter23" label="ART~DE"/>
+      <nt id="nter24" label="NOU~CP"/>
+      <!--Terminals-->
+      <!--sempre-->
+      <t id="ter2">
+        <span>
+          <target id="t2"/>
+        </span>
+      </t>
+      <!--interessante-->
+      <t id="ter3">
+        <span>
+          <target id="t3"/>
+        </span>
+      </t>
+      <!--e-->
+      <t id="ter4">
+        <span>
+          <target id="t4"/>
+        </span>
+      </t>
+      <!--divertente-->
+      <t id="ter5">
+        <span>
+          <target id="t5"/>
+        </span>
+      </t>
+      <!--per-->
+      <t id="ter6">
+        <span>
+          <target id="t6"/>
+        </span>
+      </t>
+      <!--i-->
+      <t id="ter7">
+        <span>
+          <target id="t7"/>
+        </span>
+      </t>
+      <!--bambini-->
+      <t id="ter8">
+        <span>
+          <target id="t8"/>
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter9">
+        <span>
+          <target id="t9"/>
+        </span>
+      </t>
+      <!--ma-->
+      <t id="ter10">
+        <span>
+          <target id="t10"/>
+        </span>
+      </t>
+      <!--anche-->
+      <t id="ter11">
+        <span>
+          <target id="t11"/>
+        </span>
+      </t>
+      <!--gli-->
+      <t id="ter12">
+        <span>
+          <target id="t12"/>
+        </span>
+      </t>
+      <!--adulti-->
+      <t id="ter13">
+        <span>
+          <target id="t13"/>
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre5" from="nter4" to="nter3"/>
+      <edge id="tre6" from="nter5" to="nter4"/>
+      <edge id="tre7" from="nter6" to="nter5" head="yes"/>
+      <edge id="tre8" from="ter2" to="nter6"/>
+      <edge id="tre9" from="nter7" to="nter4"/>
+      <edge id="tre10" from="nter8" to="nter7"/>
+      <edge id="tre11" from="nter9" to="nter8" head="yes"/>
+      <edge id="tre12" from="ter3" to="nter9"/>
+      <edge id="tre13" from="nter10" to="nter7"/>
+      <edge id="tre14" from="ter4" to="nter10"/>
+      <edge id="tre15" from="nter11" to="nter7"/>
+      <edge id="tre16" from="nter12" to="nter11" head="yes"/>
+      <edge id="tre17" from="ter5" to="nter12"/>
+      <edge id="tre18" from="nter13" to="nter4"/>
+      <edge id="tre19" from="nter14" to="nter13"/>
+      <edge id="tre20" from="ter6" to="nter14"/>
+      <edge id="tre21" from="nter15" to="nter13"/>
+      <edge id="tre22" from="nter16" to="nter15"/>
+      <edge id="tre23" from="ter7" to="nter16"/>
+      <edge id="tre24" from="nter17" to="nter15" head="yes"/>
+      <edge id="tre25" from="ter8" to="nter17"/>
+      <edge id="tre26" from="nter18" to="nter4"/>
+      <edge id="tre27" from="nter19" to="nter18"/>
+      <edge id="tre28" from="ter9" to="nter19"/>
+      <edge id="tre29" from="nter20" to="nter18"/>
+      <edge id="tre30" from="ter10" to="nter20"/>
+      <edge id="tre31" from="nter21" to="nter18"/>
+      <edge id="tre32" from="nter22" to="nter21"/>
+      <edge id="tre33" from="ter11" to="nter22"/>
+      <edge id="tre34" from="nter23" to="nter21"/>
+      <edge id="tre35" from="ter12" to="nter23"/>
+      <edge id="tre36" from="nter24" to="nter21" head="yes"/>
+      <edge id="tre37" from="ter13" to="nter24"/>
+    </tree>
+  </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--divertente per i bambini-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--interessante-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="For children">
+        <references>
+          <span>
+            <target id="t8"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+</KAF>

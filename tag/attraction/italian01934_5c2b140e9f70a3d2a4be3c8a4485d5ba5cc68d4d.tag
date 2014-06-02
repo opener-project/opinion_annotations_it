@@ -1,0 +1,9 @@
+w3	Uno	uno	Q		StrongPositive	1	Opinion	3		0		0		0		0		0		0	2	true	2
+w4	dei	dei	P		StrongPositive	1	Opinion	3		0		0		0		0		0		0	3	true	2
+w5	luoghi	luogo	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	4	true	2
+w6	più	piu'	R		StrongPositive	1	Opinion	3		0		0		0		0		0		0	5	true	2
+w7	belli	bello	G		StrongPositive	1	Opinion	3		0		0		0		0		0		0	6	true	2
+w8	di	di	P		StrongPositive	1	Opinion	3		0		0		0		0		0		0	7	true	2
+w9	Genova	genova	R		StrongPositive	1	Opinion	3		0		0		0		0		0		0	8	true	2
+w11	molto	molto	G		Positive	4	Opinion	5		0		0		0		0		0		0	10	true	2
+w12	caratteristico	caratteristico	G		Positive	4	Opinion	5		0		0		0		0		0		0	11	true	2

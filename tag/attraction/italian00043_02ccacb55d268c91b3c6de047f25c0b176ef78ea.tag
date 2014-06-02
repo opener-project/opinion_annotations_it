@@ -1,0 +1,9 @@
+w67	In	in	P		Positive	1	Opinion	3		0		0		0		0		0		0	66	true	5
+w68	un	uno	D		Positive	1	Opinion	3		0		0		0		0		0		0	67	true	5
+w69	paio	paio	N		Positive	1	Opinion	3		0		0		0		0		0		0	68	true	5
+w70	di	di	P		Positive	1	Opinion	3		0		0		0		0		0		0	69	true	5
+w71	ore	ore	N		Positive	1	Opinion	3		0		0		0		0		0		0	70	true	5
+w72	si	si	Q		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	71	true	5
+w73	visita	visitare	V		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	72	true	5
+w74	tutto	tutto	A		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	73	true	5
+w75	quanto	quanto	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	74	true	5

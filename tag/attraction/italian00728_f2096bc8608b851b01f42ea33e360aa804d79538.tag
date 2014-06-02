@@ -1,0 +1,2 @@
+w5	Tutto	tutto	G		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	4	true	2
+w6	bellissimo	bellissimo	G		StrongPositive	2	Opinion	3		0		0		0		0		0		0	5	true	2

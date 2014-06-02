@@ -1,0 +1,12 @@
+w18	un	uno	D		Negative	1	Opinion	2		0		0		0		0		0		0	17	true	3
+w19	pò	pò	N		Negative	1	Opinion	2		0		0		0		0		0		0	18	true	3
+w20	caro	caro	G		Negative	1	Opinion	2		0		0		0		0		0		0	19	true	3
+w22	permette	permettere	V		Positive	3	Opinion	5		0		0		0		0		0		0	21	true	3
+w23	di	di	P		Positive	3	Opinion	5		0		0		0		0		0		0	22	true	3
+w24	scendere	scendere	V		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	23	true	3
+w25	e	e	Q		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	24	true	3
+w26	salire	salire	V		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	25	true	3
+w27	quante	quanto	G		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	26	true	3
+w28	volte	volta	N		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	27	true	3
+w29	si	si	Q		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	28	true	3
+w30	vuole	volere	V		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	29	true	3

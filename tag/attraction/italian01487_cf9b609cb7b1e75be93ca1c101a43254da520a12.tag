@@ -1,0 +1,10 @@
+w52	Un	uno	D		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	51	true	4
+w53	posto	posto	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	52	true	4
+w54	del	del	P		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	53	true	4
+w55	genere	genere	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	54	true	4
+w56	meriterebbe	meritare	V		Negative	1	Opinion	3		0		0		0		0		0		0	55	true	4
+w57	molto	molto	Q		Negative	1	Opinion	3		0		0		0		0		0		0	56	true	4
+w58	di	di	P		Negative	1	Opinion	3		0		0		0		0		0		0	57	true	4
+w59	più	piu'	N		Negative	1	Opinion	3		0		0		0		0		0		0	58	true	4
+w64	incuria	incuria	N		StrongNegative	5	Opinion	6		0		0		0		0		0		0	63	true	4
+w65	dilagante	dilagare	V		StrongNegative	5	Opinion	6		0		0		0		0		0		0	64	true	4

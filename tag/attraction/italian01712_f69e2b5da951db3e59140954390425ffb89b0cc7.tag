@@ -1,0 +1,11 @@
+w8	Visita	visita	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	7	true	2
+w9	allo	allo	P		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	8	true	2
+w10	stadio	stadio	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	9	true	2
+w11	ed	ed	Q		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	10	true	2
+w12	al	al	P		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	11	true	2
+w13	museo	museo	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	12	true	2
+w14	del	del	P		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	13	true	2
+w15	Real	real	G		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	14	true	2
+w16	Madrid	madrid	R		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	15	true	2
+w17	davvero	davvero	A		StrongPositive	2	Opinion	3		0		0		0		0		0		0	16	true	2
+w18	entusiasmante	entusiasmare	V		StrongPositive	2	Opinion	3		0		0		0		0		0		0	17	true	2
